@@ -47,12 +47,12 @@ table { width:90%;}
 
     <div class="thumbnail">
 
-      <img src="https://images.onefootball.com/icons/leagueColoredCompetition/64/9.png" alt="Premier League">
+      <img src="https://images.onefootball.com/icons/leagueColoredCompetition/64/{{league.cid}}.png" alt="{{ league.name }}">
 
       <div class="caption">
         <h4>{{ league.name }}</h4>
 
-        <p>Matchday 3 <a src="">Info </a></p>
+        <p>Matchday {{ league.matchday }}<a src="https://www.onefootball.com/en-US/competition/{{league.cid}}">Info</a></p>
 
         <p><a href="#" class="btn btn-primary" role="button">Choose</a> </p>
       </div>
