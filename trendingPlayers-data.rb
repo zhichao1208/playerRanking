@@ -175,6 +175,8 @@ end # => update
 
 leaugesList = []
 
+playersAll = []
+
 bl17 = Competition.new.bl17
 pl17 = Competition.new.pl17
 laliga17 = Competition.new.laliga17
@@ -198,6 +200,8 @@ leaugesList << {"cid"=>league["cid"],
                 "img"=>img+league["cid"]+".png",
                 "link"=>leaguePage+league["cid"]}
 
+   playersAll <<playersData
+
   json = JSON.generate(playersData)
 
   File.open("/Users/jackli/Desktop/onedata/TrendPlayer/web/json/#{league["cid"]}.json","wb") do |f|
@@ -205,6 +209,15 @@ leaugesList << {"cid"=>league["cid"],
   end
 
 end # => leagues
+
+
+  json = JSON.generate(playersAll.flatten)
+
+  File.open("/Users/jackli/Desktop/onedata/TrendPlayer/web/json/players.json","wb") do |f|
+  f.write(json)
+  end
+
+
 
 
   list = JSON.generate(leaugesList)

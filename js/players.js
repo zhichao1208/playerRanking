@@ -1,6 +1,6 @@
 app.factory('players',['$http',function($http){
   
-	var cid = "1";
+	var cid = "players";
 	var url = './json/' + cid + '.json';
 
 
