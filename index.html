@@ -103,7 +103,7 @@ table { width:90%;}
 				<tbody>
 
     <!-- player list -->
-         <tr ng-repeat="player in players | toArray | orderBy:'lastAvg'">
+         <tr ng-repeat="player in players | toArray | orderBy:'-lastAvg'">
 
           <td>{{ player.name}}</td> 
           <td>{{ player.team}}</td>
