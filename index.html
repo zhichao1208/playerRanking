@@ -49,12 +49,12 @@ table { width:90%;}
 
     <div class="thumbnail">
 
-      <img src="{{league.img}}" alt="{{ league.name }}">
+      <img ng-src={{league.img}} alt="{{ league.name }}">
 
       <div class="caption">
         <h4>{{ league.name }}</h4>
 
-        <p>Matchday {{ league.matchday }}<a src="{{ league.link }}" > Info</a></p>
+        <p>Matchday {{ league.matchday }}<a ng-src={{league.link}} > Info</a></p>
 
         <p><a href="#" class="btn btn-primary" role="button">Choose</a> </p>
       </div>
