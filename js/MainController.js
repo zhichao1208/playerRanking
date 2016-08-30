@@ -1,4 +1,4 @@
-app.controller('MainController', ['$scope', 'leagues','players', function($scope, leagues,players) { 
+app.controller('MainController', ['$scope', 'leagues','players', function($scope, leagues, players) { 
 
   leagues.success(function(data){
    $scope.leagues =data;
