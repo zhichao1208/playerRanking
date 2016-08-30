@@ -152,8 +152,6 @@ end
 
 end # => bestOfLast.each do |player|
 
-
-
 return trendingPlayers =  bestOfLast.sort_by{|p| p["last/Avg"]}.reverse.map{|p|
 
  {"name"=>p["playerInfo"]["data"]["info"]["name"],
@@ -188,7 +186,17 @@ puts league
 
 playersData = update(league)
 
-leaugesList << {"cid"=>league["cid"],"sid"=>league["sid"],"name"=>league["name"],"matchday"=>playersData[0]["matchday"]}
+img = "https://images.onefootball.com/icons/leagueColoredCompetition/64/"
+
+leaguePage = "https://www.onefootball.com/en-US/competition/"
+
+
+leaugesList << {"cid"=>league["cid"],
+                "sid"=>league["sid"],
+                "name"=>league["name"],
+                "matchday"=>playersData[0]["matchday"],
+                "img"=>img+league["cid"]+".png",
+                "link"=>leaguePage+league["cid"]}
 
   json = JSON.generate(playersData)
 
