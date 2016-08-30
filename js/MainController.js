@@ -1,5 +1,5 @@
-app.controller('MainController', ['$scope', 'players', function($scope, players) { 
-  players.success(function(data){
-   $scope.players =data;
+app.controller('MainController', ['$scope', 'leagues', function($scope, leagues) { 
+  leagues.success(function(data){
+   $scope.leagues =data;
   });
 }]);

@@ -1,4 +1,4 @@
-app.factory('players',['$http',function($http){
+app.factory('leagues',['$http',function($http){
   
   return $http.get('./json/leagueList.json').success(function(data){
     
