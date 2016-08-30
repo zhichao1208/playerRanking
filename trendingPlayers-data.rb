@@ -156,10 +156,11 @@ return trendingPlayers =  bestOfLast.sort_by{|p| p["last/Avg"]}.reverse.map{|p|
 
  {"name"=>p["playerInfo"]["data"]["info"]["name"],
   "team"=>p["team"],
+  "cid"=>league["cid"],
   "matchday"=>days,
   "hasGoals"=>p["hasGoals"],
   "last/Avg"=>p["last/Avg"].round(2),
-  "Raising Speed"=>p["votesAvgRate"].round(2),
+  "raisingSpeed"=>p["votesAvgRate"].round(2),
   "avgVotes"=>p["avgVotes"].round(2),
   "pastBestPlayer"=>p["pastBestPlayer"],
   "lasMatch"=>p["lastMatchInfo"],
