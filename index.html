@@ -108,14 +108,6 @@ img {
     font-weight: 500;
 }
 
-.landing-title {
-    font-family: 'Roboto','Helvetica Neue',Helvetica,sans-serif;
-    font-weight: 700;
-    color: #323c46;
-    font-size: 12px;
-    margin: 0 0 12px 0;
-}
-
 .popular-list {
     max-height: 600px;
     overflow: auto;
@@ -227,7 +219,7 @@ ul, menu, dir {
 
 		<div class="page-header of-row">
   		<h1>Onefootball - Trending Players </br><small>Most Surprise Players in Last Weekend</small></h1>
-	</div>
+	  </div>
 
 <!-- Leagues Pickers --><!-- Leagues Pickers -->
 <h3>Major Leagues</h3>
@@ -256,7 +248,30 @@ ul, menu, dir {
 
 <div class="card-body">
 
-<a class="player-stats-card" ng-repeat="player in players | toArray | orderBy:'-lastAvg'">
+<!--Title of table -->
+<div class="player-stats-card">
+
+<div class="player-stats-position text-center"> </div>
+
+<div class="player-stats-info">
+
+  <span class="player-stats-name">Name</span>
+
+  <span class="player-stats-team">
+
+  <span>Team Name</span>
+  </span>
+  </div>
+
+
+<span class="player-stats-goals">Last/Avg.</span> 
+
+</div>
+</div>
+
+
+<!--List of table -->
+<div class="player-stats-card" ng-repeat="player in players | toArray | orderBy:'-lastAvg'">
 
 <div class="player-stats-position text-center">{{players.index(player)}}</div>
 
@@ -275,7 +290,10 @@ ul, menu, dir {
 
 </div>
 </div>
-</a>
+
+
+
+</div>
 
 
 
