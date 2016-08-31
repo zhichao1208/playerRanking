@@ -87,20 +87,16 @@ tr { padding: 1.4%}
 							Name
 						</th>
 						<th>
-            Team of
+            Team of 
 							<!-- Split button -->
-<div class="btn-group">
-  <button type="button" class="btn btn-default">Action</button>
+  <div class="btn-group">
+  <button type="button" class="btn btn-default">Major Leagues</button>
   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <span class="caret"></span>
     <span class="sr-only">Toggle Dropdown</span>
   </button>
   <ul class="dropdown-menu">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">Separated link</a></li>
+    <li ng-repeat="league in leagues"><a href="#">{{league.name}}</a></li>
   </ul>
 </div>
 						</th>
