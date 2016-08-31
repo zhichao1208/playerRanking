@@ -216,12 +216,15 @@ ul, menu, dir {
 
 <div class="xxsm-col-24 md-col-24 xlg-col-8">
 
-<h3 class="landing-title">Football competitions to follow</h3><ul class="popular-list">
+<h3>Major Leagues</h3>
+
+<ul class="popular-list">
 
 <li ng-repeat="league in leagues" class="popular-item">
 
 <img ng-src={{league.img}} alt="{{ league.name }}"> 
-<span>{{league.name}}</span>
+<span>{{league.name}}</span></br>
+<span>day-{{league.matchday}}</span>
 
 </li><!---->
 </ul>
