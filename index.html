@@ -198,6 +198,25 @@ ul, menu, dir {
     box-sizing: border-box;
 }
 
+.of-row [class*="-col-"] {
+    box-sizing: border-box;
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.of-row {
+    width: 100%;
+    display: block;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+}
+
 </style>
 
 </head>
@@ -212,11 +231,9 @@ ul, menu, dir {
 		</div>
 	</div>
 
-<!-- Leagues Pickers -->
-<div class="row">
-<!-- Leagues Pickers -->
+<!-- Leagues Pickers --><!-- Leagues Pickers -->
 
-<div class="xxsm-col-24 md-col-24 xlg-col-8">
+<div class="of-row">
 
 <h3>Major Leagues</h3>
 
