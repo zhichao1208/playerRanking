@@ -12,7 +12,7 @@ app.controller('MainController', ['$scope', 'leagues','players', function($scope
 
   var player =  $scope.players[20];
 
-  $scope.labels = [player["name"]];
+  $scope.labels = [player["name"],player["name"],"lastMatch"];
 
   $scope.series = [player["name"]];
 
