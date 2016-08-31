@@ -167,8 +167,16 @@ ul, menu, dir {
 .popular-list .popular-item span {
     display: block;
     text-align: center;
+    padding-top: 5px;
+}
+
+.popular-list .popular-item span league-name {
+    display: block;
+    font-weight:bold;
+    text-align: center;
     padding-top: 12px;
 }
+
 
 .popular-list li span {
     font-family: 'Roboto','Helvetica Neue',Helvetica,sans-serif;
@@ -206,12 +214,6 @@ ul, menu, dir {
 
 <!-- Leagues Pickers -->
 <div class="row">
-
-<div>
-<h3>Choose Leagues <span> Select All </span></h3>
-<h3></h3>
-</div>
-
 <!-- Leagues Pickers -->
 
 <div class="xxsm-col-24 md-col-24 xlg-col-8">
@@ -223,8 +225,8 @@ ul, menu, dir {
 <li ng-repeat="league in leagues" class="popular-item">
 
 <img ng-src={{league.img}} alt="{{ league.name }}"> 
-<span>{{league.name}}</span></br>
-<span>day-{{league.matchday}}</span>
+<span class="league-name">{{league.name}}</span>
+<span>day {{league.matchday}}</span>
 
 </li><!---->
 </ul>
