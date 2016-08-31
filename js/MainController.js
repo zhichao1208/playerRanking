@@ -6,9 +6,8 @@ app.controller('MainController', ['$scope', 'leagues','players', function($scope
 
   players.success(function(data){
    $scope.players =data;
-  });
 
-
+   
   console.log($scope.players[0]);
 
   var player =  $scope.players[0];
@@ -39,6 +38,13 @@ app.controller('MainController', ['$scope', 'leagues','players', function($scope
       ]
     }
   };
+
+
+
+
+
+  });
+
 
 
 
