@@ -18,6 +18,18 @@
 
 
 	<style type="text/css">
+body {
+    font-family: 'Helvetica Neue','Roboto',sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #e1e6ea;
+    height: auto;
+    line-height: 1.5;
+    color: #323c46;
+    min-width: 320px;
+}
+
+
 h3 { padding-left: 1.4%}
 table { width:90%;
       margin:1.4%}
@@ -25,6 +37,77 @@ td { padding: 1.4%}
 th { padding: 1.4%;
  margin:1.4%}
 tr { padding: 1.4%}
+
+.card-body {
+    background-color: #fff;
+    width: 100%;}
+
+.player-stats-card {
+    border-bottom: 1px solid #e1e6ea;
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+}
+
+a {
+    color: #323c46;
+    text-decoration: none;
+    background: transparent;
+}
+
+.player-stats-position {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    width: 5%;
+    vertical-align: middle;
+}
+
+.player-stats-info {
+    display: inline-block;
+    vertical-align: middle;
+    width: 55%;
+    margin-left: 3%;
+}
+
+.player-stats-name {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.player-stats-team {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    width: 100%;
+}
+
+.player-stats-team>img {
+    height: 22px;
+    width: auto;
+    margin-right: 8px;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.player-stats-score {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+    margin-right: 2%;
+}
+
+.player-stats-goals {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 </style>
 
 </head>
@@ -78,7 +161,35 @@ tr { padding: 1.4%}
 <h3>Playes Ranking by Last / Avg.</h3>
 <h3></h3>
 </div>
-	
+
+<!-- Players Card -->
+
+<div class="card-body">
+
+<a class="player-stats-card" ng-repeat="player in players | toArray | orderBy:'-lastAvg'">
+
+<div class="player-stats-position text-center">{{player.index}}</div>
+
+<div class="player-stats-info">
+
+  <span class="player-stats-name">{{player.name}}</span>
+
+  <span class="player-stats-team"><img src="https://images.onefootball.com/icons/teams/56/209.png"> 
+
+  <span>{{player.team}}</span>
+  </span>
+  </div>
+
+
+<span class="player-stats-goals">{{player.lastAvg}}</span> 
+
+</div>
+</div>
+</a>
+
+
+
+<!-- Table Players  -->	
 	<div>
 			<table class="table table-striped table-hover">
 				<thead>
@@ -87,7 +198,7 @@ tr { padding: 1.4%}
 							Name
 						</th>
 						<th>
-            Team of 
+            Teams of 
 							<!-- Split button -->
   <div class="btn-group">
   <button type="button" class="btn btn-default">Major Leagues</button>
