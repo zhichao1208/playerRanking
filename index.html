@@ -210,6 +210,53 @@ ul, menu, dir {
     box-sizing: border-box;
 }
 
+.table-header-wrapper {
+    line-height: 36px;
+    height: 36px;
+    padding: 0 2%;
+    border-bottom: 1px solid #e1e6ea;
+    color: #8c96a0;
+    font-weight: 500;
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.competition-name {
+    -webkit-box-flex: 8;
+    -webkit-flex: 8;
+    -ms-flex: 8;
+    flex: 8;
+    text-align: left;
+}
+
+.hasGoals {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.trending {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.lastAvg {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
 </style>
 
 </head>
@@ -250,24 +297,17 @@ ul, menu, dir {
 <div class="card-body">
 
 <!--Title of table -->
-  <div class="player-stats-card">
+<div class="table-header-wrapper">
 
-  <div class="player-stats-position text-center"> </div>
+<div class="competition-name"<span>Bundesliga</span><!----></div>
 
-    <div class="player-stats-info">
+<div class="hasGoals">HasGoal</div>
 
-      <span class="player-stats-name">Name</span>
+<div class="lastAvg">Last/Avg.</div>
 
-      <span class="player-stats-team">
+<div class="trending">Trending</div>
 
-      <span>Team Name</span>
-      </span>
-    </div>
-
-
-  <span class="player-stats-goals">Last/Avg.</span> 
-
-  </div>
+</div>
 
 
 
