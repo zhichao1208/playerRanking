@@ -168,13 +168,13 @@ img {
 
 <a class="player-stats-card" ng-repeat="player in players | toArray | orderBy:'-lastAvg'">
 
-<div class="player-stats-position text-center">{{player.index}}</div>
+<div class="player-stats-position text-center">{{players.index(player)}}</div>
 
 <div class="player-stats-info">
 
   <span class="player-stats-name">{{player.name}}</span>
 
-  <span class="player-stats-team"><img src="https://images.onefootball.com/icons/teams/56/209.png"> 
+  <span class="player-stats-team">
 
   <span>{{player.team}}</span>
   </span>
