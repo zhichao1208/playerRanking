@@ -108,6 +108,38 @@ img {
     font-weight: 500;
 }
 
+.landing-title {
+    font-family: 'Roboto','Helvetica Neue',Helvetica,sans-serif;
+    font-weight: 700;
+    color: #323c46;
+    font-size: 12px;
+    margin: 0 0 12px 0;
+}
+
+.popular-list {
+    max-height: 600px;
+    overflow: auto;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.19);
+}
+
+.popular-list {
+    list-style-type: none;
+    padding: 12px 0;
+    margin: 0;
+    background: #fff;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.popular-list .popular-item {
+    min-width: 120px;
+    padding: 12px;
+}
+
 </style>
 
 </head>
@@ -155,6 +187,21 @@ img {
 </div>
 
 <!-- Leagues Pickers -->
+
+<div class="xxsm-col-24 md-col-24 xlg-col-8">
+
+<h3 class="landing-title">Football competitions to follow</h3><ul class="popular-list">
+
+<li ng-repeat="league in leagues" class="popular-item">
+
+<img ng-src={{league.img}} alt="{{ league.name }}"> 
+<span>{{league.name}}</span>
+
+</li><!---->
+</ul>
+</div>
+
+<!--New Pickers -->
 <div class="row">
 
 <div>
