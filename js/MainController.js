@@ -8,9 +8,9 @@ app.controller('MainController', ['$scope', 'leagues','players', function($scope
    $scope.players =data;
 
 
-  console.log($scope.players[0]);
+  console.log($scope.players[20]);
 
-  var player =  $scope.players[0];
+  var player =  $scope.players[20];
 
   $scope.labels = [player["name"]];
 
