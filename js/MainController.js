@@ -10,6 +10,8 @@ app.controller('MainController', ['$scope', 'leagues','players', function($scope
 
   var player =  $scope.players[0];
 
+   console.log(player);
+
   $scope.labels = ["January", "February", "March", "April", "May", "June", "July"];
 
   $scope.series = ['Series A'];
