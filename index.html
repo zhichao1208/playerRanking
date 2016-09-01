@@ -340,6 +340,11 @@ ul, menu, dir {
   filter: grayscale(100%);
 }
 
+.player-image {
+    width: 48px;
+    border-radius: 10%;
+}
+
 
 </style>
 
@@ -385,21 +390,22 @@ ul, menu, dir {
 <!--Title of table -->
 <div class="table-header-wrapper">
 
-<div class="competition-name">Ranking
+<div class="competition-name">Players
 </div>
 
 
-<div class="hasGoals" ng-click="sortBy('hasGoals')" >Goal   <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
+<div class="hasGoals" ng-click="sortBy('hasGoals')" >
+Goal  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
 
 <div class="lastAvg" ng-click="sortBy('avgVotes')" >
-Avg.  <i class="fa fa-sort fa-lg" aria-hidden="true"></i>
+Avg  <i class="fa fa-sort fa-lg" aria-hidden="true"></i>
 </div>
 
 <div class="lastAvg"  ng-click="sortBy('lastAvg')" >
-Last/Avg.  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
+L/A  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
 
 <div class="trending"  ng-click="sortBy('raisingSpeed')" >
-Trending   <i class="fa fa-sort fa-lg" aria-hidden="true"></i></span>
+Tr  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></span>
 </div>
 
 </div>
@@ -409,15 +415,16 @@ Trending   <i class="fa fa-sort fa-lg" aria-hidden="true"></i></span>
 <div class="standings-table-row-wrapper"  ng-repeat="player in players| orderBy:propertyName:reverse"  ng-click="choose(player)" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()" ng-if="chosedLeagues.indexOf(player.cid)!==-1">
 
 
-<div class="ranking">{{$index+1}}</div>
-
+<div class="ranking">
+<img class="player-image" ng-src="{{player.imageSrc}}" loaded="true" >
+</div>
 
 <div class="player-stats-info" >
 
 <span class="player-stats-name">{{player.name}}</span>
 
 <span class="player-stats-team">
-<img src="https://images.onefootball.com/icons/teams/56/209.png" loaded="true" >
+<img ng-src="{{player.teamImg.url}} "loaded="true" >
 
 <span>{{player.team}}</span>
 

@@ -1,1 +1,1730 @@
-[{"name":"Bernd Leno","team":"Bayer Leverkusen","cid":"1","matchday":1,"hasGoals":0,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":419.0,"pastBestPlayer":0,"lasMatch":["2016-08-27T16:30:00Z","B. M‘Gladbach",2,1,"Bayer Leverkusen"],"last5Votes":[419.0]},{"name":"Max Meyer","team":"FC Schalke 04","cid":"1","matchday":1,"hasGoals":0,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":591.0,"pastBestPlayer":0,"lasMatch":["2016-08-27T13:30:00Z","E. Frankfurt",1,0,"FC Schalke 04"],"last5Votes":[591.0]},{"name":"Ousmane Dembélé","team":"B. Dortmund","cid":"1","matchday":1,"hasGoals":0,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":594.0,"pastBestPlayer":0,"lasMatch":["2016-08-27T13:30:00Z","B. Dortmund",2,1,"1. FSV Mainz 05"],"last5Votes":[594.0]},{"name":"Mitchell Weiser","team":"Hertha BSC","cid":"1","matchday":1,"hasGoals":0,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":664.0,"pastBestPlayer":0,"lasMatch":["2016-08-28T13:30:00Z","Hertha BSC",2,1,"SC Freiburg"],"last5Votes":[664.0]},{"name":"Thomas Müller","team":"FC Bayern Munich","cid":"1","matchday":1,"hasGoals":0,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":740.0,"pastBestPlayer":0,"lasMatch":["2016-08-26T18:30:00Z","FC Bayern Munich",6,0,"Werder Bremen"],"last5Votes":[740.0]},{"name":"Daniel Didavi","team":"VfL Wolfsburg","cid":"1","matchday":1,"hasGoals":1,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":786.0,"pastBestPlayer":1,"lasMatch":["2016-08-27T13:30:00Z","FC Augsburg",0,2,"VfL Wolfsburg"],"last5Votes":[786.0]},{"name":"Dominik Kaiser","team":"RB Leipzig","cid":"1","matchday":1,"hasGoals":1,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":817.0,"pastBestPlayer":0,"lasMatch":["2016-08-28T15:30:00Z","TSG 1899 Hoffenheim",2,2,"RB Leipzig"],"last5Votes":[817.0]},{"name":"Felix Wiedwald","team":"Werder Bremen","cid":"1","matchday":1,"hasGoals":0,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":938.0,"pastBestPlayer":0,"lasMatch":["2016-08-26T18:30:00Z","FC Bayern Munich",6,0,"Werder Bremen"],"last5Votes":[938.0]},{"name":"Oliver Baumann","team":"TSG 1899 Hoffenheim","cid":"1","matchday":1,"hasGoals":0,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":1183.0,"pastBestPlayer":1,"lasMatch":["2016-08-28T15:30:00Z","TSG 1899 Hoffenheim",2,2,"RB Leipzig"],"last5Votes":[1183.0]},{"name":"Leonardo Bittencourt","team":"1. FC Köln","cid":"1","matchday":1,"hasGoals":0,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":1229.0,"pastBestPlayer":1,"lasMatch":["2016-08-27T13:30:00Z","1. FC Köln",2,0,"Darmstadt 98"],"last5Votes":[1229.0]},{"name":"Vincenzo Grifo","team":"SC Freiburg","cid":"1","matchday":1,"hasGoals":0,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":1273.0,"pastBestPlayer":1,"lasMatch":["2016-08-28T13:30:00Z","Hertha BSC",2,1,"SC Freiburg"],"last5Votes":[1273.0]},{"name":"Bobby Wood","team":"Hamburger SV","cid":"1","matchday":1,"hasGoals":1,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":1475.0,"pastBestPlayer":1,"lasMatch":["2016-08-27T13:30:00Z","Hamburger SV",1,1,"FC Ingolstadt"],"last5Votes":[1475.0]},{"name":"André Hahn","team":"B. M‘Gladbach","cid":"1","matchday":1,"hasGoals":1,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":1586.0,"pastBestPlayer":1,"lasMatch":["2016-08-27T16:30:00Z","B. M‘Gladbach",2,1,"Bayer Leverkusen"],"last5Votes":[1586.0]},{"name":"Alexander Meier","team":"E. Frankfurt","cid":"1","matchday":1,"hasGoals":1,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":1671.0,"pastBestPlayer":1,"lasMatch":["2016-08-27T13:30:00Z","E. Frankfurt",1,0,"FC Schalke 04"],"last5Votes":[1671.0]},{"name":"Pierre-Emerick Aubameyang","team":"B. Dortmund","cid":"1","matchday":1,"hasGoals":2,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":3759.0,"pastBestPlayer":1,"lasMatch":["2016-08-27T13:30:00Z","B. Dortmund",2,1,"1. FSV Mainz 05"],"last5Votes":[3759.0]},{"name":"Robert Lewandowski","team":"FC Bayern Munich","cid":"1","matchday":1,"hasGoals":3,"lastAvg":100.0,"raisingSpeed":-1000.0,"avgVotes":8192.0,"pastBestPlayer":1,"lasMatch":["2016-08-26T18:30:00Z","FC Bayern Munich",6,0,"Werder Bremen"],"last5Votes":[8192.0]},{"name":"Marcus Rashford","team":"Manchester Utd","cid":"9","matchday":3,"hasGoals":1,"lastAvg":300.0,"raisingSpeed":847.0,"avgVotes":564.67,"pastBestPlayer":0,"lasMatch":["2016-08-27T16:30:00Z","Hull City",0,1,"Manchester Utd"],"last5Votes":[0.0,0.0,1694.0]},{"name":"James Milner","team":"Liverpool","cid":"9","matchday":3,"hasGoals":1,"lastAvg":299.29,"raisingSpeed":211.13,"avgVotes":560.33,"pastBestPlayer":1,"lasMatch":["2016-08-27T11:30:00Z","Tottenham",1,1,"Liverpool"],"last5Votes":[0.0,4.0,1677.0]},{"name":"Eldin Jakupovic","team":"Hull City","cid":"9","matchday":3,"hasGoals":0,"lastAvg":286.81,"raisingSpeed":30.34,"avgVotes":151.67,"pastBestPlayer":0,"lasMatch":["2016-08-27T16:30:00Z","Hull City",0,1,"Manchester Utd"],"last5Votes":[13.0,7.0,435.0]},{"name":"Raheem Sterling","team":"Manchester City","cid":"9","matchday":3,"hasGoals":2,"lastAvg":280.39,"raisingSpeed":16.95,"avgVotes":1030.33,"pastBestPlayer":1,"lasMatch":["2016-08-28T15:00:00Z","Manchester City",3,1,"West Ham"],"last5Votes":[120.0,82.0,2889.0]},{"name":"Mesut Özil","team":"Arsenal","cid":"9","matchday":3,"hasGoals":1,"lastAvg":276.56,"raisingSpeed":47.9,"avgVotes":362.67,"pastBestPlayer":0,"lasMatch":["2016-08-27T14:00:00Z","Watford",1,3,"Arsenal"],"last5Votes":[0.0,85.0,1003.0]},{"name":"Sadio Mané","team":"Liverpool","cid":"9","matchday":3,"hasGoals":0,"lastAvg":217.74,"raisingSpeed":468.0,"avgVotes":430.33,"pastBestPlayer":0,"lasMatch":["2016-08-27T11:30:00Z","Tottenham",1,1,"Liverpool"],"last5Votes":[354.0,0.0,937.0]},{"name":"Adnan Januzaj","team":"Sunderland","cid":"9","matchday":3,"hasGoals":0,"lastAvg":209.33,"raisingSpeed":1.91,"avgVotes":296.67,"pastBestPlayer":1,"lasMatch":["2016-08-27T14:00:00Z","Southampton",1,1,"Sunderland"],"last5Votes":[74.0,195.0,621.0]},{"name":"Jamie Vardy","team":"Leicester City","cid":"9","matchday":3,"hasGoals":1,"lastAvg":186.72,"raisingSpeed":1.97,"avgVotes":881.0,"pastBestPlayer":1,"lasMatch":["2016-08-27T14:00:00Z","Leicester City",2,1,"Swansea City"],"last5Votes":[205.0,793.0,1645.0]},{"name":"Álvaro Negredo","team":"Middlesbrough","cid":"9","matchday":3,"hasGoals":0,"lastAvg":153.71,"raisingSpeed":1.33,"avgVotes":417.67,"pastBestPlayer":2,"lasMatch":["2016-08-28T12:30:00Z","West Brom",0,0,"Middlesbrough"],"last5Votes":[463.0,148.0,642.0]},{"name":"Alexis Sánchez","team":"Arsenal","cid":"9","matchday":3,"hasGoals":1,"lastAvg":143.05,"raisingSpeed":1.42,"avgVotes":1583.33,"pastBestPlayer":2,"lasMatch":["2016-08-27T14:00:00Z","Watford",1,3,"Arsenal"],"last5Votes":[532.0,1953.0,2265.0]},{"name":"Paul Pogba","team":"Manchester Utd","cid":"9","matchday":3,"hasGoals":0,"lastAvg":138.17,"raisingSpeed":724.93,"avgVotes":896.0,"pastBestPlayer":0,"lasMatch":["2016-08-27T16:30:00Z","Hull City",0,1,"Manchester Utd"],"last5Votes":[0.0,1450.0,1238.0]},{"name":"Ross Barkley","team":"Everton","cid":"9","matchday":3,"hasGoals":0,"lastAvg":113.99,"raisingSpeed":2.68,"avgVotes":376.33,"pastBestPlayer":2,"lasMatch":["2016-08-27T14:00:00Z","Everton",1,0,"Stoke City"],"last5Votes":[641.0,59.0,429.0]},{"name":"Eden Hazard","team":"Chelsea","cid":"9","matchday":3,"hasGoals":1,"lastAvg":94.65,"raisingSpeed":-0.09,"avgVotes":3660.67,"pastBestPlayer":3,"lasMatch":["2016-08-27T14:00:00Z","Chelsea",3,0,"Burnley"],"last5Votes":[4366.0,3151.0,3465.0]},{"name":"Zlatan Ibrahimovic","team":"Manchester Utd","cid":"9","matchday":3,"hasGoals":0,"lastAvg":65.15,"raisingSpeed":-0.24,"avgVotes":7330.33,"pastBestPlayer":3,"lasMatch":["2016-08-27T16:30:00Z","Hull City",0,1,"Manchester Utd"],"last5Votes":[8779.0,8436.0,4776.0]},{"name":"Sergio Agüero","team":"Manchester City","cid":"9","matchday":3,"hasGoals":0,"lastAvg":29.17,"raisingSpeed":-0.03,"avgVotes":2218.0,"pastBestPlayer":2,"lasMatch":["2016-08-28T15:00:00Z","Manchester City",3,1,"West Ham"],"last5Votes":[2168.0,3839.0,647.0]},{"name":"Philippe Coutinho","team":"Liverpool","cid":"9","matchday":3,"hasGoals":0,"lastAvg":12.63,"raisingSpeed":-0.77,"avgVotes":2811.67,"pastBestPlayer":2,"lasMatch":["2016-08-27T11:30:00Z","Tottenham",1,1,"Liverpool"],"last5Votes":[6733.0,1347.0,355.0]},{"name":"Nani","team":"Valencia CF","cid":"10","matchday":2,"hasGoals":0,"lastAvg":200.0,"raisingSpeed":269.0,"avgVotes":134.5,"pastBestPlayer":1,"lasMatch":["2016-08-27T16:15:00Z","Eibar",1,0,"Valencia CF"],"last5Votes":[0.0,269.0]},{"name":"Antoine Griezmann","team":"Atlético Madrid","cid":"10","matchday":2,"hasGoals":0,"lastAvg":200.0,"raisingSpeed":820.0,"avgVotes":410.0,"pastBestPlayer":1,"lasMatch":["2016-08-27T20:15:00Z","Leganés",0,0,"Atlético Madrid"],"last5Votes":[0.0,820.0]},{"name":"Luka Modric","team":"Real Madrid","cid":"10","matchday":2,"hasGoals":0,"lastAvg":200.0,"raisingSpeed":431.0,"avgVotes":215.5,"pastBestPlayer":0,"lasMatch":["2016-08-27T18:15:00Z","Real Madrid",2,1,"Celta de Vigo"],"last5Votes":[0.0,431.0]},{"name":"Gerard Moreno","team":"Espanyol","cid":"10","matchday":2,"hasGoals":2,"lastAvg":197.12,"raisingSpeed":67.5,"avgVotes":69.5,"pastBestPlayer":1,"lasMatch":["2016-08-26T20:00:00Z","Espanyol",2,2,"Málaga"],"last5Votes":[2.0,137.0]},{"name":"Daniel Wass","team":"Celta de Vigo","cid":"10","matchday":2,"hasGoals":0,"lastAvg":195.88,"raisingSpeed":46.5,"avgVotes":97.0,"pastBestPlayer":0,"lasMatch":["2016-08-27T18:15:00Z","Real Madrid",2,1,"Celta de Vigo"],"last5Votes":[4.0,190.0]},{"name":"Ivan Rakitic","team":"Barcelona","cid":"10","matchday":2,"hasGoals":1,"lastAvg":186.01,"raisingSpeed":12.3,"avgVotes":336.0,"pastBestPlayer":0,"lasMatch":["2016-08-28T18:15:00Z","Athletic Club",0,1,"Barcelona"],"last5Votes":[47.0,625.0]},{"name":"Toni Kroos","team":"Real Madrid","cid":"10","matchday":2,"hasGoals":1,"lastAvg":173.54,"raisingSpeed":5.56,"avgVotes":461.0,"pastBestPlayer":0,"lasMatch":["2016-08-27T18:15:00Z","Real Madrid",2,1,"Celta de Vigo"],"last5Votes":[122.0,800.0]},{"name":"Aduriz","team":"Athletic Club","cid":"10","matchday":2,"hasGoals":0,"lastAvg":171.05,"raisingSpeed":4.91,"avgVotes":152.0,"pastBestPlayer":0,"lasMatch":["2016-08-28T18:15:00Z","Athletic Club",0,1,"Barcelona"],"last5Votes":[44.0,260.0]},{"name":"Álvaro Morata","team":"Real Madrid","cid":"10","matchday":2,"hasGoals":1,"lastAvg":162.85,"raisingSpeed":3.38,"avgVotes":471.0,"pastBestPlayer":0,"lasMatch":["2016-08-27T18:15:00Z","Real Madrid",2,1,"Celta de Vigo"],"last5Votes":[175.0,767.0]},{"name":"Franco Vázquez","team":"Sevilla FC","cid":"10","matchday":2,"hasGoals":0,"lastAvg":138.46,"raisingSpeed":1.25,"avgVotes":97.5,"pastBestPlayer":1,"lasMatch":["2016-08-28T20:15:00Z","Villarreal",0,0,"Sevilla FC"],"last5Votes":[60.0,135.0]},{"name":"James Rodríguez","team":"Real Madrid","cid":"10","matchday":2,"hasGoals":0,"lastAvg":122.91,"raisingSpeed":0.59,"avgVotes":233.5,"pastBestPlayer":0,"lasMatch":["2016-08-27T18:15:00Z","Real Madrid",2,1,"Celta de Vigo"],"last5Votes":[180.0,287.0]},{"name":"Kevin-Prince Boateng","team":"Las Palmas","cid":"10","matchday":2,"hasGoals":1,"lastAvg":122.42,"raisingSpeed":0.58,"avgVotes":528.5,"pastBestPlayer":2,"lasMatch":["2016-08-28T16:15:00Z","Las Palmas",5,1,"Granada CF"],"last5Votes":[410.0,647.0]},{"name":"Gareth Bale","team":"Real Madrid","cid":"10","matchday":2,"hasGoals":0,"lastAvg":97.96,"raisingSpeed":-0.04,"avgVotes":4933.5,"pastBestPlayer":2,"lasMatch":["2016-08-27T18:15:00Z","Real Madrid",2,1,"Celta de Vigo"],"last5Votes":[5034.0,4833.0]},{"name":"Arda Turan","team":"Barcelona","cid":"10","matchday":2,"hasGoals":0,"lastAvg":78.82,"raisingSpeed":-0.35,"avgVotes":373.0,"pastBestPlayer":0,"lasMatch":["2016-08-28T18:15:00Z","Athletic Club",0,1,"Barcelona"],"last5Votes":[452.0,294.0]},{"name":"Lionel Messi","team":"Barcelona","cid":"10","matchday":2,"hasGoals":0,"lastAvg":63.24,"raisingSpeed":-0.54,"avgVotes":5781.0,"pastBestPlayer":2,"lasMatch":["2016-08-28T18:15:00Z","Athletic Club",0,1,"Barcelona"],"last5Votes":[7906.0,3656.0]},{"name":"Luis Suárez","team":"Barcelona","cid":"10","matchday":2,"hasGoals":0,"lastAvg":22.1,"raisingSpeed":-0.88,"avgVotes":638.0,"pastBestPlayer":0,"lasMatch":["2016-08-28T18:15:00Z","Athletic Club",0,1,"Barcelona"],"last5Votes":[1135.0,141.0]},{"name":"Carlos Sánchez","team":"Fiorentina","cid":"13","matchday":2,"hasGoals":1,"lastAvg":194.82,"raisingSpeed":36.63,"avgVotes":154.5,"pastBestPlayer":1,"lasMatch":["2016-08-28T18:45:00Z","Fiorentina",1,0,"Chievo"],"last5Votes":[8.0,301.0]},{"name":"Ivan Perisic","team":"Inter","cid":"13","matchday":2,"hasGoals":0,"lastAvg":194.78,"raisingSpeed":36.29,"avgVotes":593.5,"pastBestPlayer":1,"lasMatch":["2016-08-28T16:00:00Z","Inter",1,1,"Palermo"],"last5Votes":[31.0,1156.0]},{"name":"Arkadiusz Milik","team":"Napoli","cid":"13","matchday":2,"hasGoals":2,"lastAvg":193.89,"raisingSpeed":30.73,"avgVotes":1293.0,"pastBestPlayer":1,"lasMatch":["2016-08-27T18:45:00Z","Napoli",4,2,"Milan"],"last5Votes":[79.0,2507.0]},{"name":"Andrea Rispoli","team":"Palermo","cid":"13","matchday":2,"hasGoals":1,"lastAvg":189.72,"raisingSpeed":17.46,"avgVotes":233.5,"pastBestPlayer":0,"lasMatch":["2016-08-28T16:00:00Z","Inter",1,1,"Palermo"],"last5Votes":[24.0,443.0]},{"name":"Gianluigi Donnarumma","team":"Milan","cid":"13","matchday":2,"hasGoals":0,"lastAvg":164.54,"raisingSpeed":3.64,"avgVotes":815.0,"pastBestPlayer":0,"lasMatch":["2016-08-27T18:45:00Z","Napoli",4,2,"Milan"],"last5Votes":[289.0,1341.0]},{"name":"Leonardo Pavoletti","team":"Genoa","cid":"13","matchday":2,"hasGoals":2,"lastAvg":159.42,"raisingSpeed":2.93,"avgVotes":172.5,"pastBestPlayer":1,"lasMatch":["2016-08-28T18:45:00Z","Crotone",1,3,"Genoa"],"last5Votes":[70.0,275.0]},{"name":"Mauro Icardi","team":"Inter","cid":"13","matchday":2,"hasGoals":1,"lastAvg":149.32,"raisingSpeed":1.95,"avgVotes":258.5,"pastBestPlayer":0,"lasMatch":["2016-08-28T16:00:00Z","Inter",1,1,"Palermo"],"last5Votes":[131.0,386.0]},{"name":"Andrea Belotti","team":"Torino","cid":"13","matchday":2,"hasGoals":3,"lastAvg":148.24,"raisingSpeed":1.86,"avgVotes":467.5,"pastBestPlayer":1,"lasMatch":["2016-08-28T18:45:00Z","Torino",5,1,"Bologna"],"last5Votes":[242.0,693.0]},{"name":"Paulo Dybala","team":"Juventus","cid":"13","matchday":2,"hasGoals":0,"lastAvg":141.8,"raisingSpeed":1.44,"avgVotes":2079.0,"pastBestPlayer":1,"lasMatch":["2016-08-27T16:00:00Z","Lazio",0,1,"Juventus"],"last5Votes":[1210.0,2948.0]},{"name":"M'Baye Niang","team":"Milan","cid":"13","matchday":2,"hasGoals":1,"lastAvg":136.04,"raisingSpeed":1.13,"avgVotes":184.5,"pastBestPlayer":0,"lasMatch":["2016-08-27T18:45:00Z","Napoli",4,2,"Milan"],"last5Votes":[118.0,251.0]},{"name":"Domenico Berardi","team":"Sassuolo","cid":"13","matchday":2,"hasGoals":1,"lastAvg":91.13,"raisingSpeed":-0.16,"avgVotes":406.0,"pastBestPlayer":2,"lasMatch":["2016-08-28T18:45:00Z","Sassuolo",2,1,"Pescara"],"last5Votes":[442.0,370.0]},{"name":"Diego Perotti","team":"Roma","cid":"13","matchday":2,"hasGoals":1,"lastAvg":89.71,"raisingSpeed":-0.19,"avgVotes":612.0,"pastBestPlayer":1,"lasMatch":["2016-08-28T18:45:00Z","Cagliari",2,2,"Roma"],"last5Votes":[675.0,549.0]},{"name":"Sami Khedira","team":"Juventus","cid":"13","matchday":2,"hasGoals":1,"lastAvg":61.8,"raisingSpeed":-0.55,"avgVotes":1226.5,"pastBestPlayer":1,"lasMatch":["2016-08-27T16:00:00Z","Lazio",0,1,"Juventus"],"last5Votes":[1695.0,758.0]},{"name":"Ciro Immobile","team":"Lazio","cid":"13","matchday":2,"hasGoals":0,"lastAvg":57.99,"raisingSpeed":-0.59,"avgVotes":576.0,"pastBestPlayer":1,"lasMatch":["2016-08-27T16:00:00Z","Lazio",0,1,"Juventus"],"last5Votes":[818.0,334.0]},{"name":"Simone Padoin","team":"Cagliari","cid":"13","matchday":2,"hasGoals":0,"lastAvg":48.16,"raisingSpeed":-0.68,"avgVotes":814.0,"pastBestPlayer":1,"lasMatch":["2016-08-28T18:45:00Z","Cagliari",2,2,"Roma"],"last5Votes":[1236.0,392.0]},{"name":"Dries Mertens","team":"Napoli","cid":"13","matchday":2,"hasGoals":0,"lastAvg":40.85,"raisingSpeed":-0.74,"avgVotes":849.5,"pastBestPlayer":1,"lasMatch":["2016-08-27T18:45:00Z","Napoli",4,2,"Milan"],"last5Votes":[1352.0,347.0]}]
+[
+  {
+    "name": "Bernd Leno",
+    "team": "Bayer Leverkusen",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/162.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/6232.jpg",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 0,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 419.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-27T16:30:00Z",
+      "B. M‘Gladbach",
+      2,
+      1,
+      "Bayer Leverkusen"
+    ],
+    "last5Votes": [
+      419.0
+    ]
+  },
+  {
+    "name": "Maximilian Meyer",
+    "team": "FC Schalke 04",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/144.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/38673.jpg",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 0,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 591.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-27T13:30:00Z",
+      "E. Frankfurt",
+      1,
+      0,
+      "FC Schalke 04"
+    ],
+    "last5Votes": [
+      591.0
+    ]
+  },
+  {
+    "name": "Ousmane Dembélé",
+    "team": "B. Dortmund",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/155.png"
+    },
+    "imageSrc": "https://images.onefootball.com/default/default_player.png",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 0,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 594.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-27T13:30:00Z",
+      "B. Dortmund",
+      2,
+      1,
+      "1. FSV Mainz 05"
+    ],
+    "last5Votes": [
+      594.0
+    ]
+  },
+  {
+    "name": "Mitchell Weiser",
+    "team": "Hertha BSC",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/168.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/24307.jpg",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 0,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 664.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-28T13:30:00Z",
+      "Hertha BSC",
+      2,
+      1,
+      "SC Freiburg"
+    ],
+    "last5Votes": [
+      664.0
+    ]
+  },
+  {
+    "name": "Thomas Müller",
+    "team": "FC Bayern Munich",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/6.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/173.jpg",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 0,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 740.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-26T18:30:00Z",
+      "FC Bayern Munich",
+      6,
+      0,
+      "Werder Bremen"
+    ],
+    "last5Votes": [
+      740.0
+    ]
+  },
+  {
+    "name": "Daniel Didavi",
+    "team": "VfL Wolfsburg",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/32.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/988.jpg",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 1,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 786.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T13:30:00Z",
+      "FC Augsburg",
+      0,
+      2,
+      "VfL Wolfsburg"
+    ],
+    "last5Votes": [
+      786.0
+    ]
+  },
+  {
+    "name": "Dominik Kaiser",
+    "team": "RB Leipzig",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/885.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/16763.jpg",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 1,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 817.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-28T15:30:00Z",
+      "TSG 1899 Hoffenheim",
+      2,
+      2,
+      "RB Leipzig"
+    ],
+    "last5Votes": [
+      817.0
+    ]
+  },
+  {
+    "name": "Felix Wiedwald",
+    "team": "Werder Bremen",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/150.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/4069.jpg",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 0,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 938.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-26T18:30:00Z",
+      "FC Bayern Munich",
+      6,
+      0,
+      "Werder Bremen"
+    ],
+    "last5Votes": [
+      938.0
+    ]
+  },
+  {
+    "name": "Oliver Baumann",
+    "team": "TSG 1899 Hoffenheim",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/158.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/3975.jpg",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 0,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 1183.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-28T15:30:00Z",
+      "TSG 1899 Hoffenheim",
+      2,
+      2,
+      "RB Leipzig"
+    ],
+    "last5Votes": [
+      1183.0
+    ]
+  },
+  {
+    "name": "Leonardo Bittencourt",
+    "team": "1. FC Köln",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/151.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/19585.jpg",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 0,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 1229.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T13:30:00Z",
+      "1. FC Köln",
+      2,
+      0,
+      "Darmstadt 98"
+    ],
+    "last5Votes": [
+      1229.0
+    ]
+  },
+  {
+    "name": "Vincenzo Grifo",
+    "team": "SC Freiburg",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/159.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/36128.jpg",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 0,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 1273.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-28T13:30:00Z",
+      "Hertha BSC",
+      2,
+      1,
+      "SC Freiburg"
+    ],
+    "last5Votes": [
+      1273.0
+    ]
+  },
+  {
+    "name": "Bobby Wood",
+    "team": "Hamburger SV",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/157.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/18603.jpg",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 1,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 1475.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T13:30:00Z",
+      "Hamburger SV",
+      1,
+      1,
+      "FC Ingolstadt"
+    ],
+    "last5Votes": [
+      1475.0
+    ]
+  },
+  {
+    "name": "André Hahn",
+    "team": "B. M‘Gladbach",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/154.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/15453.jpg",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 1,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 1586.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T16:30:00Z",
+      "B. M‘Gladbach",
+      2,
+      1,
+      "Bayer Leverkusen"
+    ],
+    "last5Votes": [
+      1586.0
+    ]
+  },
+  {
+    "name": "Alexander Meier",
+    "team": "E. Frankfurt",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/156.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/3677.jpg",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 1,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 1671.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T13:30:00Z",
+      "E. Frankfurt",
+      1,
+      0,
+      "FC Schalke 04"
+    ],
+    "last5Votes": [
+      1671.0
+    ]
+  },
+  {
+    "name": "Pierre-Emerick Aubameyang",
+    "team": "B. Dortmund",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/155.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/4928.jpg",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 2,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 3759.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T13:30:00Z",
+      "B. Dortmund",
+      2,
+      1,
+      "1. FSV Mainz 05"
+    ],
+    "last5Votes": [
+      3759.0
+    ]
+  },
+  {
+    "name": "Robert Lewandowski",
+    "team": "FC Bayern Munich",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/6.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/1992.jpg",
+    "cid": "1",
+    "matchday": 1,
+    "hasGoals": 3,
+    "lastAvg": 100.0,
+    "raisingSpeed": "-1000.0",
+    "avgVotes": 8192.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-26T18:30:00Z",
+      "FC Bayern Munich",
+      6,
+      0,
+      "Werder Bremen"
+    ],
+    "last5Votes": [
+      8192.0
+    ]
+  },
+  {
+    "name": "Marcus Rashford",
+    "team": "Manchester Utd",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/21.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/172006.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 1,
+    "lastAvg": 300.0,
+    "raisingSpeed": "847.0",
+    "avgVotes": 564.67,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-27T16:30:00Z",
+      "Hull City",
+      0,
+      1,
+      "Manchester Utd"
+    ],
+    "last5Votes": [
+      0.0,
+      0.0,
+      1694.0
+    ]
+  },
+  {
+    "name": "James Milner",
+    "team": "Liverpool",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/18.png"
+    },
+    "imageSrc": "https://images.onefootball.com/PlayerPictures/gb-eng/1248.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 1,
+    "lastAvg": 299.29,
+    "raisingSpeed": "211.13",
+    "avgVotes": 560.33,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T11:30:00Z",
+      "Tottenham",
+      1,
+      1,
+      "Liverpool"
+    ],
+    "last5Votes": [
+      0.0,
+      4.0,
+      1677.0
+    ]
+  },
+  {
+    "name": "Eldin Jakupovic",
+    "team": "Hull City",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/276.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/23483.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 0,
+    "lastAvg": 286.81,
+    "raisingSpeed": "30.34",
+    "avgVotes": 151.67,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-27T16:30:00Z",
+      "Hull City",
+      0,
+      1,
+      "Manchester Utd"
+    ],
+    "last5Votes": [
+      13.0,
+      7.0,
+      435.0
+    ]
+  },
+  {
+    "name": "Raheem Sterling",
+    "team": "Manchester City",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/209.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/28990.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 2,
+    "lastAvg": 280.39,
+    "raisingSpeed": "16.95",
+    "avgVotes": 1030.33,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-28T15:00:00Z",
+      "Manchester City",
+      3,
+      1,
+      "West Ham"
+    ],
+    "last5Votes": [
+      120.0,
+      82.0,
+      2889.0
+    ]
+  },
+  {
+    "name": "Mesut Özil",
+    "team": "Arsenal",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/2.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/1263.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 1,
+    "lastAvg": 276.56,
+    "raisingSpeed": "47.9",
+    "avgVotes": 362.67,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-27T14:00:00Z",
+      "Watford",
+      1,
+      3,
+      "Arsenal"
+    ],
+    "last5Votes": [
+      0.0,
+      85.0,
+      1003.0
+    ]
+  },
+  {
+    "name": "Sadio Mané",
+    "team": "Liverpool",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/18.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/28571.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 0,
+    "lastAvg": 217.74,
+    "raisingSpeed": "468.0",
+    "avgVotes": 430.33,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-27T11:30:00Z",
+      "Tottenham",
+      1,
+      1,
+      "Liverpool"
+    ],
+    "last5Votes": [
+      354.0,
+      0.0,
+      937.0
+    ]
+  },
+  {
+    "name": "Adnan Januzaj",
+    "team": "Sunderland",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/208.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/48226.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 0,
+    "lastAvg": 209.33,
+    "raisingSpeed": "1.91",
+    "avgVotes": 296.67,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T14:00:00Z",
+      "Southampton",
+      1,
+      1,
+      "Sunderland"
+    ],
+    "last5Votes": [
+      74.0,
+      195.0,
+      621.0
+    ]
+  },
+  {
+    "name": "Jamie Vardy",
+    "team": "Leicester City",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/572.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/29360.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 1,
+    "lastAvg": 186.72,
+    "raisingSpeed": "1.97",
+    "avgVotes": 881.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T14:00:00Z",
+      "Leicester City",
+      2,
+      1,
+      "Swansea City"
+    ],
+    "last5Votes": [
+      205.0,
+      793.0,
+      1645.0
+    ]
+  },
+  {
+    "name": "Álvaro Negredo",
+    "team": "Middlesbrough",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/573.png"
+    },
+    "imageSrc": "https://images.onefootball.com/PlayerPictures/es/901.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 0,
+    "lastAvg": 153.71,
+    "raisingSpeed": "1.33",
+    "avgVotes": 417.67,
+    "pastBestPlayer": 2,
+    "lasMatch": [
+      "2016-08-28T12:30:00Z",
+      "West Brom",
+      0,
+      0,
+      "Middlesbrough"
+    ],
+    "last5Votes": [
+      463.0,
+      148.0,
+      642.0
+    ]
+  },
+  {
+    "name": "Alexis Sánchez",
+    "team": "Arsenal",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/2.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/1198.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 1,
+    "lastAvg": 143.05,
+    "raisingSpeed": "1.42",
+    "avgVotes": 1583.33,
+    "pastBestPlayer": 2,
+    "lasMatch": [
+      "2016-08-27T14:00:00Z",
+      "Watford",
+      1,
+      3,
+      "Arsenal"
+    ],
+    "last5Votes": [
+      532.0,
+      1953.0,
+      2265.0
+    ]
+  },
+  {
+    "name": "Paul Pogba",
+    "team": "Manchester Utd",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/21.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/671.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 0,
+    "lastAvg": 138.17,
+    "raisingSpeed": "724.93",
+    "avgVotes": 896.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-27T16:30:00Z",
+      "Hull City",
+      0,
+      1,
+      "Manchester Utd"
+    ],
+    "last5Votes": [
+      0.0,
+      1450.0,
+      1238.0
+    ]
+  },
+  {
+    "name": "Ross Barkley",
+    "team": "Everton",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/197.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/31192.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 0,
+    "lastAvg": 113.99,
+    "raisingSpeed": "2.68",
+    "avgVotes": 376.33,
+    "pastBestPlayer": 2,
+    "lasMatch": [
+      "2016-08-27T14:00:00Z",
+      "Everton",
+      1,
+      0,
+      "Stoke City"
+    ],
+    "last5Votes": [
+      641.0,
+      59.0,
+      429.0
+    ]
+  },
+  {
+    "name": "Eden Hazard",
+    "team": "Chelsea",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/9.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/4859.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 1,
+    "lastAvg": 94.65,
+    "raisingSpeed": "-0.09",
+    "avgVotes": 3660.67,
+    "pastBestPlayer": 3,
+    "lasMatch": [
+      "2016-08-27T14:00:00Z",
+      "Chelsea",
+      3,
+      0,
+      "Burnley"
+    ],
+    "last5Votes": [
+      4366.0,
+      3151.0,
+      3465.0
+    ]
+  },
+  {
+    "name": "Zlatan Ibrahimovic",
+    "team": "Manchester Utd",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/21.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/153.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 0,
+    "lastAvg": 65.15,
+    "raisingSpeed": "-0.24",
+    "avgVotes": 7330.33,
+    "pastBestPlayer": 3,
+    "lasMatch": [
+      "2016-08-27T16:30:00Z",
+      "Hull City",
+      0,
+      1,
+      "Manchester Utd"
+    ],
+    "last5Votes": [
+      8779.0,
+      8436.0,
+      4776.0
+    ]
+  },
+  {
+    "name": "Sergio Agüero",
+    "team": "Manchester City",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/209.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/78.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 0,
+    "lastAvg": 29.17,
+    "raisingSpeed": "-0.03",
+    "avgVotes": 2218.0,
+    "pastBestPlayer": 2,
+    "lasMatch": [
+      "2016-08-28T15:00:00Z",
+      "Manchester City",
+      3,
+      1,
+      "West Ham"
+    ],
+    "last5Votes": [
+      2168.0,
+      3839.0,
+      647.0
+    ]
+  },
+  {
+    "name": "Philippe Coutinho",
+    "team": "Liverpool",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/18.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/5180.jpg",
+    "cid": "9",
+    "matchday": 3,
+    "hasGoals": 0,
+    "lastAvg": 12.63,
+    "raisingSpeed": "-0.77",
+    "avgVotes": 2811.67,
+    "pastBestPlayer": 2,
+    "lasMatch": [
+      "2016-08-27T11:30:00Z",
+      "Tottenham",
+      1,
+      1,
+      "Liverpool"
+    ],
+    "last5Votes": [
+      6733.0,
+      1347.0,
+      355.0
+    ]
+  },
+  {
+    "name": "Nani",
+    "team": "Valencia CF",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/143.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/654.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 200.0,
+    "raisingSpeed": "269.0",
+    "avgVotes": 134.5,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T16:15:00Z",
+      "Eibar",
+      1,
+      0,
+      "Valencia CF"
+    ],
+    "last5Votes": [
+      0.0,
+      269.0
+    ]
+  },
+  {
+    "name": "Antoine Griezmann",
+    "team": "Atlético Madrid",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/3.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/3893.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 200.0,
+    "raisingSpeed": "820.0",
+    "avgVotes": 410.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T20:15:00Z",
+      "Leganés",
+      0,
+      0,
+      "Atlético Madrid"
+    ],
+    "last5Votes": [
+      0.0,
+      820.0
+    ]
+  },
+  {
+    "name": "Luka Modric",
+    "team": "Real Madrid",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/26.png"
+    },
+    "imageSrc": "https://images.onefootball.com/player/1d/1daa0e985dee0bd15775e3885b478655.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 200.0,
+    "raisingSpeed": "431.0",
+    "avgVotes": 215.5,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-27T18:15:00Z",
+      "Real Madrid",
+      2,
+      1,
+      "Celta de Vigo"
+    ],
+    "last5Votes": [
+      0.0,
+      431.0
+    ]
+  },
+  {
+    "name": "Gerard Moreno",
+    "team": "Espanyol",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/215.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/33192.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 2,
+    "lastAvg": 197.12,
+    "raisingSpeed": "67.5",
+    "avgVotes": 69.5,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-26T20:00:00Z",
+      "Espanyol",
+      2,
+      2,
+      "Málaga"
+    ],
+    "last5Votes": [
+      2.0,
+      137.0
+    ]
+  },
+  {
+    "name": "Daniel Wass",
+    "team": "Celta de Vigo",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/680.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/8355.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 195.88,
+    "raisingSpeed": "46.5",
+    "avgVotes": 97.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-27T18:15:00Z",
+      "Real Madrid",
+      2,
+      1,
+      "Celta de Vigo"
+    ],
+    "last5Votes": [
+      4.0,
+      190.0
+    ]
+  },
+  {
+    "name": "Ivan Rakitic",
+    "team": "Barcelona",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/5.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/1823.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 1,
+    "lastAvg": 186.01,
+    "raisingSpeed": "12.3",
+    "avgVotes": 336.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-28T18:15:00Z",
+      "Athletic Club",
+      0,
+      1,
+      "Barcelona"
+    ],
+    "last5Votes": [
+      47.0,
+      625.0
+    ]
+  },
+  {
+    "name": "Toni Kroos",
+    "team": "Real Madrid",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/26.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/1266.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 1,
+    "lastAvg": 173.54,
+    "raisingSpeed": "5.56",
+    "avgVotes": 461.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-27T18:15:00Z",
+      "Real Madrid",
+      2,
+      1,
+      "Celta de Vigo"
+    ],
+    "last5Votes": [
+      122.0,
+      800.0
+    ]
+  },
+  {
+    "name": "Aritz Aduriz",
+    "team": "Athletic Club",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/213.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/3734.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 171.05,
+    "raisingSpeed": "4.91",
+    "avgVotes": 152.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-28T18:15:00Z",
+      "Athletic Club",
+      0,
+      1,
+      "Barcelona"
+    ],
+    "last5Votes": [
+      44.0,
+      260.0
+    ]
+  },
+  {
+    "name": "Álvaro Morata",
+    "team": "Real Madrid",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/26.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/18467.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 1,
+    "lastAvg": 162.85,
+    "raisingSpeed": "3.38",
+    "avgVotes": 471.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-27T18:15:00Z",
+      "Real Madrid",
+      2,
+      1,
+      "Celta de Vigo"
+    ],
+    "last5Votes": [
+      175.0,
+      767.0
+    ]
+  },
+  {
+    "name": "Franco Vázquez",
+    "team": "Sevilla FC",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/28.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/24437.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 138.46,
+    "raisingSpeed": "1.25",
+    "avgVotes": 97.5,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-28T20:15:00Z",
+      "Villarreal",
+      0,
+      0,
+      "Sevilla FC"
+    ],
+    "last5Votes": [
+      60.0,
+      135.0
+    ]
+  },
+  {
+    "name": "James Rodríguez",
+    "team": "Real Madrid",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/26.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/2314.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 122.91,
+    "raisingSpeed": "0.59",
+    "avgVotes": 233.5,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-27T18:15:00Z",
+      "Real Madrid",
+      2,
+      1,
+      "Celta de Vigo"
+    ],
+    "last5Votes": [
+      180.0,
+      287.0
+    ]
+  },
+  {
+    "name": "Kevin-Prince Boateng",
+    "team": "Las Palmas",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/687.png"
+    },
+    "imageSrc": "https://images.onefootball.com/PlayerPictures/gh/1292.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 1,
+    "lastAvg": 122.42,
+    "raisingSpeed": "0.58",
+    "avgVotes": 528.5,
+    "pastBestPlayer": 2,
+    "lasMatch": [
+      "2016-08-28T16:15:00Z",
+      "Las Palmas",
+      5,
+      1,
+      "Granada CF"
+    ],
+    "last5Votes": [
+      410.0,
+      647.0
+    ]
+  },
+  {
+    "name": "Gareth Bale",
+    "team": "Real Madrid",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/26.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/3129.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 97.96,
+    "raisingSpeed": "-0.04",
+    "avgVotes": 4933.5,
+    "pastBestPlayer": 2,
+    "lasMatch": [
+      "2016-08-27T18:15:00Z",
+      "Real Madrid",
+      2,
+      1,
+      "Celta de Vigo"
+    ],
+    "last5Votes": [
+      5034.0,
+      4833.0
+    ]
+  },
+  {
+    "name": "Arda Turan",
+    "team": "Barcelona",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/5.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/5360.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 78.82,
+    "raisingSpeed": "-0.35",
+    "avgVotes": 373.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-28T18:15:00Z",
+      "Athletic Club",
+      0,
+      1,
+      "Barcelona"
+    ],
+    "last5Votes": [
+      452.0,
+      294.0
+    ]
+  },
+  {
+    "name": "Lionel Messi",
+    "team": "Barcelona",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/5.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/134.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 63.24,
+    "raisingSpeed": "-0.54",
+    "avgVotes": 5781.0,
+    "pastBestPlayer": 2,
+    "lasMatch": [
+      "2016-08-28T18:15:00Z",
+      "Athletic Club",
+      0,
+      1,
+      "Barcelona"
+    ],
+    "last5Votes": [
+      7906.0,
+      3656.0
+    ]
+  },
+  {
+    "name": "Luis Suárez",
+    "team": "Barcelona",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/5.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/1708.jpg",
+    "cid": "10",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 22.1,
+    "raisingSpeed": "-0.88",
+    "avgVotes": 638.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-28T18:15:00Z",
+      "Athletic Club",
+      0,
+      1,
+      "Barcelona"
+    ],
+    "last5Votes": [
+      1135.0,
+      141.0
+    ]
+  },
+  {
+    "name": "Carlos Sánchez",
+    "team": "Fiorentina",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/15.png"
+    },
+    "imageSrc": "https://images.onefootball.com/PlayerPictures/co/5159.jpg",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 1,
+    "lastAvg": 194.82,
+    "raisingSpeed": "36.63",
+    "avgVotes": 154.5,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-28T18:45:00Z",
+      "Fiorentina",
+      1,
+      0,
+      "Chievo"
+    ],
+    "last5Votes": [
+      8.0,
+      301.0
+    ]
+  },
+  {
+    "name": "Ivan Perisic",
+    "team": "Inter",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/16.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/16050.jpg",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 194.78,
+    "raisingSpeed": "36.29",
+    "avgVotes": 593.5,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-28T16:00:00Z",
+      "Inter",
+      1,
+      1,
+      "Palermo"
+    ],
+    "last5Votes": [
+      31.0,
+      1156.0
+    ]
+  },
+  {
+    "name": "Arkadiusz Milik",
+    "team": "Napoli",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/191.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/34074.jpg",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 2,
+    "lastAvg": 193.89,
+    "raisingSpeed": "30.73",
+    "avgVotes": 1293.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T18:45:00Z",
+      "Napoli",
+      4,
+      2,
+      "Milan"
+    ],
+    "last5Votes": [
+      79.0,
+      2507.0
+    ]
+  },
+  {
+    "name": "Andrea Rispoli",
+    "team": "Palermo",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/192.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/2758.jpg",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 1,
+    "lastAvg": 189.72,
+    "raisingSpeed": "17.46",
+    "avgVotes": 233.5,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-28T16:00:00Z",
+      "Inter",
+      1,
+      1,
+      "Palermo"
+    ],
+    "last5Votes": [
+      24.0,
+      443.0
+    ]
+  },
+  {
+    "name": "Gianluigi Donnarumma",
+    "team": "Milan",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/23.png"
+    },
+    "imageSrc": "https://images.onefootball.com/default/default_player.png",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 164.54,
+    "raisingSpeed": "3.64",
+    "avgVotes": 815.0,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-27T18:45:00Z",
+      "Napoli",
+      4,
+      2,
+      "Milan"
+    ],
+    "last5Votes": [
+      289.0,
+      1341.0
+    ]
+  },
+  {
+    "name": "Leonardo Pavoletti",
+    "team": "Genoa",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/189.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/14088.jpg",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 2,
+    "lastAvg": 159.42,
+    "raisingSpeed": "2.93",
+    "avgVotes": 172.5,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-28T18:45:00Z",
+      "Crotone",
+      1,
+      3,
+      "Genoa"
+    ],
+    "last5Votes": [
+      70.0,
+      275.0
+    ]
+  },
+  {
+    "name": "Mauro Icardi",
+    "team": "Inter",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/16.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/24386.jpg",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 1,
+    "lastAvg": 149.32,
+    "raisingSpeed": "1.95",
+    "avgVotes": 258.5,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-28T16:00:00Z",
+      "Inter",
+      1,
+      1,
+      "Palermo"
+    ],
+    "last5Votes": [
+      131.0,
+      386.0
+    ]
+  },
+  {
+    "name": "Andrea Belotti",
+    "team": "Torino",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/722.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/31731.jpg",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 3,
+    "lastAvg": 148.24,
+    "raisingSpeed": "1.86",
+    "avgVotes": 467.5,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-28T18:45:00Z",
+      "Torino",
+      5,
+      1,
+      "Bologna"
+    ],
+    "last5Votes": [
+      242.0,
+      693.0
+    ]
+  },
+  {
+    "name": "Paulo Dybala",
+    "team": "Juventus",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/17.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/28758.jpg",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 141.8,
+    "raisingSpeed": "1.44",
+    "avgVotes": 2079.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T16:00:00Z",
+      "Lazio",
+      0,
+      1,
+      "Juventus"
+    ],
+    "last5Votes": [
+      1210.0,
+      2948.0
+    ]
+  },
+  {
+    "name": "M'Baye Niang",
+    "team": "Milan",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/23.png"
+    },
+    "imageSrc": "https://images.onefootball.com/default/default_player.png",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 1,
+    "lastAvg": 136.04,
+    "raisingSpeed": "1.13",
+    "avgVotes": 184.5,
+    "pastBestPlayer": 0,
+    "lasMatch": [
+      "2016-08-27T18:45:00Z",
+      "Napoli",
+      4,
+      2,
+      "Milan"
+    ],
+    "last5Votes": [
+      118.0,
+      251.0
+    ]
+  },
+  {
+    "name": "Domenico Berardi",
+    "team": "Sassuolo",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/724.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/29967.jpg",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 1,
+    "lastAvg": 91.13,
+    "raisingSpeed": "-0.16",
+    "avgVotes": 406.0,
+    "pastBestPlayer": 2,
+    "lasMatch": [
+      "2016-08-28T18:45:00Z",
+      "Sassuolo",
+      2,
+      1,
+      "Pescara"
+    ],
+    "last5Votes": [
+      442.0,
+      370.0
+    ]
+  },
+  {
+    "name": "Diego Perotti",
+    "team": "Roma",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/145.png"
+    },
+    "imageSrc": "https://images.onefootball.com/player/9f/9fe05b4d84e76d0bc6f5e83f7fb91ea3.jpg",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 1,
+    "lastAvg": 89.71,
+    "raisingSpeed": "-0.19",
+    "avgVotes": 612.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-28T18:45:00Z",
+      "Cagliari",
+      2,
+      2,
+      "Roma"
+    ],
+    "last5Votes": [
+      675.0,
+      549.0
+    ]
+  },
+  {
+    "name": "Sami Khedira",
+    "team": "Juventus",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/17.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/973.jpg",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 1,
+    "lastAvg": 61.8,
+    "raisingSpeed": "-0.55",
+    "avgVotes": 1226.5,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T16:00:00Z",
+      "Lazio",
+      0,
+      1,
+      "Juventus"
+    ],
+    "last5Votes": [
+      1695.0,
+      758.0
+    ]
+  },
+  {
+    "name": "Ciro Immobile",
+    "team": "Lazio",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/139.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/527.jpg",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 57.99,
+    "raisingSpeed": "-0.59",
+    "avgVotes": 576.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T16:00:00Z",
+      "Lazio",
+      0,
+      1,
+      "Juventus"
+    ],
+    "last5Votes": [
+      818.0,
+      334.0
+    ]
+  },
+  {
+    "name": "Simone Padoin",
+    "team": "Cagliari",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/185.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/6556.jpg",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 48.16,
+    "raisingSpeed": "-0.68",
+    "avgVotes": 814.0,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-28T18:45:00Z",
+      "Cagliari",
+      2,
+      2,
+      "Roma"
+    ],
+    "last5Votes": [
+      1236.0,
+      392.0
+    ]
+  },
+  {
+    "name": "Dries Mertens",
+    "team": "Napoli",
+    "teamImg": {
+      "size": "56x56",
+      "url": "https://images.onefootball.com/icons/internal/56/191.png"
+    },
+    "imageSrc": "https://images.onefootball.com/players/9005.jpg",
+    "cid": "13",
+    "matchday": 2,
+    "hasGoals": 0,
+    "lastAvg": 40.85,
+    "raisingSpeed": "-0.74",
+    "avgVotes": 849.5,
+    "pastBestPlayer": 1,
+    "lasMatch": [
+      "2016-08-27T18:45:00Z",
+      "Napoli",
+      4,
+      2,
+      "Milan"
+    ],
+    "last5Votes": [
+      1352.0,
+      347.0
+    ]
+  }
+]

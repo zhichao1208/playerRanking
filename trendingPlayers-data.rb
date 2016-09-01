@@ -146,6 +146,7 @@ player["playerInfo"] = playerInfo
 
 if playerInfo["data"]["info"].has_key?("clubTeam")
 player["team"] = playerInfo["data"]["info"]["clubTeam"]["name"]
+player["teamImg"] = playerInfo["data"]["info"]["clubTeam"]["logoUrls"][0]
 else
 player["team"] = "noInfo"
 end 
@@ -156,6 +157,8 @@ return trendingPlayers =  bestOfLast.sort_by{|p| p["last/Avg"]}.reverse.map{|p|
 
  {"name"=>p["playerInfo"]["data"]["info"]["name"],
   "team"=>p["team"],
+  "teamImg"=>p["teamImg"],
+  "imageSrc"=>p["playerInfo"]["data"]["info"]["imageSrc"],
   "cid"=>league["cid"],
   "matchday"=>days,
   "hasGoals"=>p["hasGoals"],
