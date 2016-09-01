@@ -173,7 +173,7 @@ ul, menu, dir {
 
 .popular-list .popular-item span league-name {
     display: block;
-    font-weight:bold;
+    font-weight: 500;
     text-align: center;
     padding-top: 12px;
 }
@@ -234,12 +234,21 @@ ul, menu, dir {
 }
 
 .competition-name {
-    -webkit-box-flex: 8;
-    -webkit-flex: 8;
-    -ms-flex: 8;
-    flex: 8;
+    -webkit-box-flex: 4;
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
     text-align: left;
 }
+
+.player-name {
+    -webkit-box-flex: 4;
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+
+}
+
 
 .hasGoals {
     display: block;
@@ -324,6 +333,13 @@ ul, menu, dir {
     box-sizing: border-box;
 }
 
+.greyscale{
+  -o-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 
 </style>
 
@@ -344,9 +360,10 @@ ul, menu, dir {
 
 <ul class="popular-list">
 
-<li ng-repeat="league in leagues" class="popular-item">
+<li ng-repeat="league in leagues" class="popular-item" ng-click="leagueList(league)">
 
-<img ng-src={{league.img}} alt="{{ league.name }}"> 
+<img class="greyscale" ng-src={{league.img}} alt="{{league.name }}" ng-if="chosedLeagues.indexOf(league.cid)===-1"> 
+<img ng-src={{league.img}} alt="{{league.name }}" ng-if="chosedLeagues.indexOf(league.cid)!==-1"> 
 <span class="league-name">{{league.name}}</span>
 <span>day {{league.matchday}}</span>
 
@@ -355,7 +372,9 @@ ul, menu, dir {
 </div>
 
 
-<h3>Playes Ranking by Last / Avg.</h3>
+<h3>Playes of League : <span ng-repeat="league in chosedLeagues"> {{league}} </span>
+Sort by: {{propertyName}}
+</h3>
 
 <!--New Pickers -->
 <div class="of-row">
@@ -367,22 +386,31 @@ ul, menu, dir {
 <!--Title of table -->
 <div class="table-header-wrapper">
 
-<div class="competition-name"<span>Bundesliga</span><!----></div>
+<div class="competition-name">Ranking
+</div>
 
-<div class="hasGoals">Goal</div>
+<div class="player-name">
+Player
+</div>
 
-<div class="lastAvg">Avg</div>
+<div class="hasGoals" ng-click="sortBy('hasGoals')" >Goal   <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
 
-<div class="lastAvg">Last</div>
+<div class="lastAvg" ng-click="sortBy('avgVotes')" >
+Avg.  <i class="fa fa-sort fa-lg" aria-hidden="true"></i>
+</div>
 
-<div class="trending">Trending</span>
+<div class="lastAvg"  ng-click="sortBy('lastAvg')" >
+Last/Avg.  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
+
+<div class="trending"  ng-click="sortBy('raisingSpeed')" >
+Trending   <i class="fa fa-sort fa-lg" aria-hidden="true"></i></span>
 </div>
 
 </div>
 
 
 <!--List of table -->
-<div class="standings-table-row-wrapper"  ng-repeat="player in players | toArray | orderBy:'-lastAvg'"  ng-click="choose(player)" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
+<div class="standings-table-row-wrapper"  ng-repeat="player in players| orderBy:propertyName:reverse"  ng-click="choose(player)" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()" ng-if="chosedLeagues.indexOf(player.cid)!==-1">
 
 
 <div class="ranking">{{$index+1}}</div>
@@ -438,63 +466,6 @@ chart-dataset-override="datasetOverride" chart-click="onClick" ng-show="player =
 
 </div>
 
-<!-- Table Players  -->	
-	<div>
-			<table class="table table-striped table-hover">
-				<thead>
-					<tr>
-						<th>
-							Name
-						</th>
-						<th>
-            Teams of 
-							<!-- Split button -->
-  <div class="btn-group">
-  <button type="button" class="btn btn-default">Major Leagues</button>
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <span class="caret"></span>
-    <span class="sr-only">Toggle Dropdown</span>
-  </button>
-  <ul class="dropdown-menu">
-    <li ng-repeat="league in leagues"><a href="#">{{league.name}}</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">Major Leagues</a></li>
-  </ul>
-</div>
-						</th>
-						<th>
-							Has Goals
-						</th>
-						<th>
-							Avg. Votes
-						</th>
-						<th>
-							Last / Avg.
-						</th>
-             <th>
-              Raising Speed
-            </th>
-
-					</tr>
-				</thead>
-				<tbody>
-
-    <!-- player list -->
-         <tr ng-repeat="player in players | toArray | orderBy:'-lastAvg'">
-
-          <td>{{ player.name}}</td> 
-          <td>{{ player.team}}</td>
-          <td>{{ player.hasGoals}}</td>
-          <td>{{ player.avgVotes}}</td>
-          <td>{{ player.lastAvg}}</td>
-          <td>{{ player.raisingSpeed}}</td>
-
-         </tr> 
-
-
-				</tbody>
-				</table>
-	</div>
 
 
     <!-- Modules -->

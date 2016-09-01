@@ -1,13 +1,18 @@
 app.controller('MainController', ['$scope', 'leagues','players', function($scope, leagues, players) { 
 
 
-$scope.players = [];
+$scope.allPlayers = [];
+$scope.chosedLeagues =["1","9","10","13"];
+$scope.players=[];
+
+
 
   leagues.success(function(data){
    $scope.leagues =data;
   });
 
   players.success(function(data){
+   $scope.allPlayers =data;
    $scope.players =data;
   });
 
@@ -18,6 +23,28 @@ $scope.players = [];
     $scope.hoverOut = function(){
         this.hover = false;
     };
+
+
+$scope.leagueList = function(league){	
+
+	var index =$scope.chosedLeagues.indexOf(league.cid)
+
+	if (index == -1)
+
+	{$scope.chosedLeagues.push(league.cid);}
+
+	else
+
+	{
+	$scope.chosedLeagues.splice(index,1);
+
+	};
+
+	console.log($scope.chosedLeagues);	
+
+};
+
+
 
 
 $scope.choesdPlayer = {};
@@ -68,9 +95,13 @@ $scope.chart = function(){
 
 		};
 
+  $scope.propertyName = 'lastAvg';
+  $scope.reverse = true;
 
-
-
+  $scope.sortBy = function(propertyName) {
+    $scope.reverse = ($scope.propertyName === propertyName) ? !$scope.reverse : false;
+    $scope.propertyName = propertyName;
+  };
 
 }]);
 
