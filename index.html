@@ -16,6 +16,8 @@
 
   <script src="./js/angular.min.js"></script>
 
+<link rel="stylesheet" href="./css/font-awesome.min.css">
+
 
 	<style type="text/css">
 body {
@@ -45,7 +47,7 @@ tr { padding: 1.4%}
 .player-stats-card {
     border-bottom: 1px solid #e1e6ea;
     padding: 10px 0;
-    width: 100%;
+    width: 60%;
     display: block;
 }
 
@@ -67,8 +69,14 @@ a {
 .player-stats-info {
     display: inline-block;
     vertical-align: middle;
-    width: 55%;
+    width: 50%;
     margin-left: 3%;
+}
+
+.player-stats-info .chart{
+
+    width: 100%;
+    margin-top: 3%;
 }
 
 .player-stats-name {
@@ -262,6 +270,60 @@ ul, menu, dir {
     height: 100px;
 }
 
+.standings-table-row-wrapper {
+    padding: 10px 2%;
+    background: #fff;
+    -webkit-box-shadow: 0 0;
+    box-shadow: 0 0;
+    -webkit-transition: all .28s cubic-bezier(.4, 0, .2, 1);
+    -moz-transition: all .28s cubic-bezier(.4, 0, .2, 1);
+    -o-transition: all .28s cubic-bezier(.4, 0, .2, 1);
+    transition: all .28s cubic-bezier(.4, 0, .2, 1);
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    color: #323c46;
+    transition: border-color .28s cubic-bezier(.4, 0, .2, 1);
+    border-bottom: 1px solid #e1e6ea;
+
+}
+
+.standings-table-row-wrapper .ranking {
+    font-weight: 500;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.standings-table-row-wrapper .total-games {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #8c96a0;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-top: 24px
+}
+
+.standings-table-row-wrapper .points {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-top: 24px;
+    box-sizing: border-box;
+}
+
 
 </style>
 
@@ -307,51 +369,72 @@ ul, menu, dir {
 
 <div class="competition-name"<span>Bundesliga</span><!----></div>
 
-<div class="hasGoals">HasGoal</div>
+<div class="hasGoals">Goal</div>
 
-<div class="lastAvg">Last/Avg.</div>
+<div class="lastAvg">Avg</div>
 
-<div class="trending">Trending</div>
+<div class="lastAvg">Last</div>
+
+<div class="trending">Trending</span>
+</div>
 
 </div>
 
-<!--Chart-->
-<div class="of-row">
+
+<!--List of table -->
+<div class="standings-table-row-wrapper"  ng-repeat="player in players | toArray | orderBy:'-lastAvg'"  ng-click="choose(player)">
+
+
+<div class="ranking">{{$index+1}}</div>
+
+
+<div class="player-stats-info">
+
+<span class="player-stats-name">{{player.name}}</span>
+
+<span class="player-stats-team">
+<img src="https://images.onefootball.com/icons/teams/56/209.png" loaded="true" >
+
+<span>{{player.team}}</span>
+
+</span>
+
 
 <canvas id="line" class="chart chart-line" chart-data="data"
 chart-labels="labels" chart-series="series" chart-options="options"
-chart-dataset-override="datasetOverride" chart-click="onClick"
+chart-dataset-override="datasetOverride" chart-click="onClick" ng-show="player == choesdPlayer">
 </canvas> 
 
-</div>
-
-<!--List of table -->
-  <div class="player-stats-card" ng-repeat="player in players | toArray | orderBy:'-lastAvg'">
-
-  <div class="player-stats-position text-center">{{players.index(player)}}</div>
-
-    <div class="player-stats-info">
-
-      <span class="player-stats-name">{{player.name}}</span>
-
-      <span class="player-stats-team">
-
-      <span>{{player.team}}</span>
-      </span>
-      </div>
-
-    <span class="player-stats-goals">{{player.hasGoals}}</span>  
-    <span class="player-stats-goals">{{player.lastAvg}}</span>  
-    <span class="player-stats-goals">{{player.raisingSpeed}}</span>  
-
-    </div>  
-  </div>
-
-
 
 </div>
 
 
+
+<div class="total-games">
+<span>{{player.hasGoals}}</span>
+</div>
+
+<div class="total-games">
+<span>{{player.avgVotes}}</span>
+</div>
+
+
+<div class="total-games">
+<span>{{player.lastAvg}}</span>
+</div>
+
+
+
+<div class="points">
+<i ng-if="player.raisingSpeed>100" class="fa fa-angle-double-up fa-lg" aria-hidden="true"></i>
+
+<i ng-if="player.raisingSpeed>0&&player.raisingSpeed<100" class="fa fa-angle-up fa-lg" aria-hidden="true"></i>
+<i ng-if="player.raisingSpeed<0&&player.raisingSpeed>-0.5" class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+<i ng-if="player.raisingSpeed<-0.5" class="fa fa-angle-double-down fa-lg" aria-hidden="true"></i>
+
+</div>
+
+</div>
 
 <!-- Table Players  -->	
 	<div>
