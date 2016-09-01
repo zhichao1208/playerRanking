@@ -234,10 +234,10 @@ ul, menu, dir {
 }
 
 .competition-name {
-    -webkit-box-flex: 4;
-    -webkit-flex: 4;
-    -ms-flex: 4;
-    flex: 4;
+    -webkit-box-flex: 8;
+    -webkit-flex: 8;
+    -ms-flex: 8;
+    flex: 8;
     text-align: left;
 }
 
@@ -354,7 +354,7 @@ ul, menu, dir {
 	  </div>
 
 <!-- Leagues Pickers --><!-- Leagues Pickers -->
-<h3>Major Leagues</h3>
+<h3>Selected League : <span ng-repeat="league in chosedLeagues"> {{league}} </span></h3>
 
 <div class="of-row">
 
@@ -372,8 +372,7 @@ ul, menu, dir {
 </div>
 
 
-<h3>Playes of League : <span ng-repeat="league in chosedLeagues"> {{league}} </span>
-Sort by: {{propertyName}}
+<h3>Players Sort by: {{propertyName}}
 </h3>
 
 <!--New Pickers -->
@@ -389,9 +388,6 @@ Sort by: {{propertyName}}
 <div class="competition-name">Ranking
 </div>
 
-<div class="player-name">
-Player
-</div>
 
 <div class="hasGoals" ng-click="sortBy('hasGoals')" >Goal   <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
 

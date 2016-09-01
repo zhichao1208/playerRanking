@@ -2,7 +2,7 @@ app.controller('MainController', ['$scope', 'leagues','players', function($scope
 
 
 $scope.allPlayers = [];
-$scope.chosedLeagues =["1","9","10","13"];
+$scope.chosedLeagues =["9"];
 $scope.players=[];
 
 
