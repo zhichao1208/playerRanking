@@ -11,6 +11,14 @@ $scope.players = [];
    $scope.players =data;
   });
 
+      $scope.hoverIn = function(){
+        this.hover = true;
+    };
+
+    $scope.hoverOut = function(){
+        this.hover = false;
+    };
+
 
 $scope.choesdPlayer = {};
 

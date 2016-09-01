@@ -69,7 +69,7 @@ a {
 .player-stats-info {
     display: inline-block;
     vertical-align: middle;
-    width: 50%;
+    width: 40%;
     margin-left: 3%;
 }
 
@@ -382,13 +382,13 @@ ul, menu, dir {
 
 
 <!--List of table -->
-<div class="standings-table-row-wrapper"  ng-repeat="player in players | toArray | orderBy:'-lastAvg'"  ng-click="choose(player)">
+<div class="standings-table-row-wrapper"  ng-repeat="player in players | toArray | orderBy:'-lastAvg'"  ng-click="choose(player)" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
 
 
 <div class="ranking">{{$index+1}}</div>
 
 
-<div class="player-stats-info">
+<div class="player-stats-info" >
 
 <span class="player-stats-name">{{player.name}}</span>
 
@@ -408,7 +408,9 @@ chart-dataset-override="datasetOverride" chart-click="onClick" ng-show="player =
 
 </div>
 
-
+<div class="total-games">
+<i class="fa fa-line-chart fa-lg" aria-hidden="true" ng-show="hover"></i>
+</div>
 
 <div class="total-games">
 <span>{{player.hasGoals}}</span>
