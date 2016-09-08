@@ -32,13 +32,6 @@ body {
 }
 
 
-h3 { padding-left: 1.4%}
-table { width:90%;
-      margin:1.4%}
-td { padding: 1.4%}
-th { padding: 1.4%;
- margin:1.4%}
-tr { padding: 1.4%}
 
 .card-body {
     background-color: #fff;
@@ -51,12 +44,6 @@ tr { padding: 1.4%}
     display: block;
 }
 
-
-a {
-    color: #323c46;
-    text-decoration: none;
-    background: transparent;
-}
 
 .player-stats-position {
     display: inline-block;
@@ -74,7 +61,6 @@ a {
 }
 
 .player-stats-info .chart{
-
     width: 100%;
     margin-top: 3%;
 }
@@ -122,28 +108,16 @@ img {
     overflow: auto;
     margin-bottom: 12px;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.19);
-}
-
-.popular-list {
     list-style-type: none;
     padding: 12px 0;
     margin: 0;
     background: #fff;
-}
-
-.popular-list {
-    display: block;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
-    -webkit-flex-flow: row nowrap;
-    -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
     -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
 }
+
 
 li {
     display: list-item;
@@ -193,27 +167,11 @@ ul, menu, dir {
     vertical-align: middle;
 }
 
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.of-row [class*="-col-"] {
-    box-sizing: border-box;
-    display: inline-block;
+.of-row {
     padding-left: 6px;
     padding-right: 6px;
-}
-
-.of-row {
     width: 100%;
-    display: block;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     box-sizing: border-box;
 }
@@ -225,11 +183,6 @@ ul, menu, dir {
     border-bottom: 1px solid #e1e6ea;
     color: #8c96a0;
     font-weight: 500;
-    display: box;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
 }
 
@@ -282,20 +235,8 @@ ul, menu, dir {
 .standings-table-row-wrapper {
     padding: 10px 2%;
     background: #fff;
-    -webkit-box-shadow: 0 0;
-    box-shadow: 0 0;
-    -webkit-transition: all .28s cubic-bezier(.4, 0, .2, 1);
-    -moz-transition: all .28s cubic-bezier(.4, 0, .2, 1);
-    -o-transition: all .28s cubic-bezier(.4, 0, .2, 1);
-    transition: all .28s cubic-bezier(.4, 0, .2, 1);
-    display: box;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     color: #323c46;
-    transition: border-color .28s cubic-bezier(.4, 0, .2, 1);
     border-bottom: 1px solid #e1e6ea;
 
 }
@@ -380,6 +321,8 @@ ul, menu, dir {
 <h3>Players Sort by: {{propertyName}}
 </h3>
 
+<h4>Goals: Last Match Goals</h4>
+
 <!--New Pickers -->
 <div class="of-row">
 
@@ -397,12 +340,17 @@ ul, menu, dir {
 <div class="hasGoals" ng-click="sortBy('hasGoals')" >
 Goal  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
 
+<div class="hasGoals" ng-click="sortBy('hasGoals')" >
+Sort  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
+
+
+
 <div class="lastAvg" ng-click="sortBy('avgVotes')" >
 Avg  <i class="fa fa-sort fa-lg" aria-hidden="true"></i>
 </div>
 
 <div class="lastAvg"  ng-click="sortBy('lastAvg')" >
-L/A  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
+Votes  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
 
 <div class="trending"  ng-click="sortBy('raisingSpeed')" >
 Tr  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></span>
@@ -448,12 +396,17 @@ chart-dataset-override="datasetOverride" chart-click="onClick" ng-show="player =
 </div>
 
 <div class="total-games">
+<span>{{player.LastSort}}<i class="fa fa-star" aria-hidden="true" ng-show="player.LastSort===1"></i>
+</span>
+</div>
+
+<div class="total-games">
 <span>{{player.avgVotes}}</span>
 </div>
 
 
 <div class="total-games">
-<span>{{player.lastAvg}}</span>
+<span>{{player.lastVotes}}</span>
 </div>
 
 

@@ -1,4 +1,4 @@
-app.controller('MainController', ['$scope', 'leagues','players', function($scope, leagues, players) { 
+app.controller('MainController', ['$scope','leagues','players', function($scope, leagues, players) { 
 
 
 $scope.allPlayers = [];
@@ -62,11 +62,28 @@ $scope.choose = function(player){
 
 $scope.chart = function(){	
 
-		  var player = $scope.choesdPlayer
+		  var player = $scope.choesdPlayer;
+
+		  var teams = $scope.choesdPlayer["last5MatchesInfo"].map(function(match) {
+
+		  				if( match["team_home"]!==$scope.choesdPlayer["team"])
+						  {return match["team_home"];}
+						else{
+
+							return match["team_away"];
+						};
+						});
 
 		  console.log(player);
+
+		   $scope.datasets = [{
+		   pointBorderWidth: 1,
+            pointHoverRadius: 5,
+		   }];
+
+
  
-		  $scope.labels = ["Day1","Day2","Day3"];
+		  $scope.labels = teams;
 
 		  $scope.series = ["votes"];
 
