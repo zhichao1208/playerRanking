@@ -43,12 +43,12 @@ body {
     border-width: 2px;
     border-color: #e1e6ea;
     text-align: center;
-        background: #47a82b;
+    background: #47a82b;
     border: 4px solid #7fc26b;
 }
 
 
-.popular-list {
+.drop-list {
     max-height: 600px;
     overflow: auto;
     margin-bottom: 12px;
@@ -61,12 +61,12 @@ body {
 }
 
 
-.popular-list .popular-item {
+.drop-list .drop-item {
     min-width: 20%;
     padding: 12px;
 }
 
-.popular-list .popular-item span {
+.drop-list .drop-item span {
     display: block;
     text-align: center;
     padding-top: 5px;
@@ -74,13 +74,13 @@ body {
 
 }
 
-.popular-list li span {
+.drop-list li span {
     font-family: 'Roboto','Helvetica Neue',Helvetica,sans-serif;
     font-size: 14px;
     font-weight: 300;
 }
 
-.popular-list .popular-item img {
+.drop-list .drop-item img {
     margin: auto;
     height: 48px;
     width: 48px;
@@ -88,7 +88,224 @@ body {
     vertical-align: middle;
 }
 
+.leagues-list{
+    max-height: 400px;
+    overflow: auto;
+    margin-bottom: 12px;
+    list-style-type: none;
+    padding: 5px 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: center; 
+}
 
+.leagues-list .league-item {
+    min-width: 5%;
+    padding: 10px 5px;
+}
+
+
+.right {
+  display: block;
+
+}
+
+.right-title{
+    vertical-align: top;
+    padding: 5px 0;
+    margin: 0;
+}
+
+
+.right-content{
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+
+}
+
+.nav-header {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    overflow: auto;
+    background: #fff;
+    border-top: 1px solid #e1e6eb;
+}
+
+
+.mobile-tabs {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: left .5s cubic-bezier(.4, 0, .2, 1);
+    white-space: nowrap;
+    display: block;
+    list-style-type: disc;
+}
+
+.mobile-tab {
+    display: inline-block;
+    list-style: none;
+    font-family: 'pluto sans regular','Helvetica Neue',Helvetica,sans-serif;
+    font-weight: normal;
+    color: #141e28;
+    font-size: 14px;
+    line-height: 50px;
+    padding: 0 15px;
+    border-color: #fff;
+    text-decoration: none;
+    border-color: #fff;
+    border-bottom: 2px solid #fff;
+
+}
+
+.mobile-active {
+    display: inline-block;
+    list-style: none;
+    font-family: 'pluto sans regular','Helvetica Neue',Helvetica,sans-serif;
+    font-weight: normal;
+    color: #141e28;
+    font-size: 14px;
+    line-height: 50px;
+    padding: 0 15px;
+    border-color: #fff;
+    text-decoration: none;
+    border-color: #fff;
+    border-bottom: 2px solid #32b846;
+}
+
+a {
+    text-decoration: none;
+    background: transparent;
+}
+
+
+.standings-table-row-wrapper {
+    padding: 10px 2%;
+    background: #fff;
+    display: flex;
+    color: #323c46;
+    transition: border-color .28s cubic-bezier(.4, 0, .2, 1);
+    border-bottom: 1px solid #e1e6ea;
+
+}
+
+.standings-table-row-wrapper .ranking {
+    font-weight: 500;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.standings-table-row-wrapper .total-games {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #8c96a0;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-top: 24px
+}
+
+.standings-table-row-wrapper .points {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-top: 24px;
+    box-sizing: border-box;
+}
+
+
+.card-body {
+    background-color: #fff;
+    width: 100%;}
+
+.player-stats-card {
+    border-bottom: 1px solid #e1e6ea;
+    padding: 10px 0;
+    width: 60%;
+    display: block;
+}
+
+
+.player-stats-position {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    width: 5%;
+    vertical-align: middle;
+}
+
+.player-stats-info {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    margin-left: 3%;
+}
+
+.player-stats-name {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.player-stats-team {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    width: 100%;
+}
+
+.player-stats-team>img {
+    height: 22px;
+    width: auto;
+    margin-right: 8px;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.player-stats-score {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+    margin-right: 2%;
+}
+
+.player-stats-goals {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.of-row {
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+}
+
+.player-image {
+    width: 48px;
+    border-radius: 10%;
+}
 
 </style>
 
@@ -107,22 +324,22 @@ body {
 
  <div class="pitch">
 
-<ul class="popular-list">
-<li  class="popular-item" ><img src="https://images.onefootball.com/icons/teams/164/5.png" alt="..." class="img-circle">
+<ul class="drop-list">
+<li  class="drop-item" ><img src="https://images.onefootball.com/icons/teams/164/5.png" alt="..." class="img-circle">
 <span class="league-name">Player</span></li>
-<li  class="popular-item" ><img src="https://images.onefootball.com/icons/teams/164/5.png" alt="..." class="img-circle"></li>
-<li  class="popular-item" ><img src="https://images.onefootball.com/icons/teams/164/5.png" alt="..." class="img-circle"></li>
-<li  class="popular-item" ><img src="https://images.onefootball.com/icons/teams/164/5.png" alt="..." class="img-circle"></li>
-<li  class="popular-item" ><img src="https://images.onefootball.com/icons/teams/164/5.png" alt="..." class="img-circle"></li>
+<li  class="drop-item" ><img src="https://images.onefootball.com/icons/teams/164/5.png" alt="..." class="img-circle"></li>
+<li  class="drop-item" ><img src="https://images.onefootball.com/icons/teams/164/5.png" alt="..." class="img-circle"></li>
+<li  class="drop-item" ><img src="https://images.onefootball.com/icons/teams/164/5.png" alt="..." class="img-circle"></li>
+<li  class="drop-item" ><img src="https://images.onefootball.com/icons/teams/164/5.png" alt="..." class="img-circle"></li>
 </ul>
 
-<ul class="popular-list">
-<li  class="popular-item" ><img src="https://images.onefootball.com/icons/teams/164/213.png" alt="..." class="img-circle">
+<ul class="drop-list">
+<li  class="drop-item" ><img src="https://images.onefootball.com/icons/teams/164/213.png" alt="..." class="img-circle">
 <span class="league-name">Player</span></li>
-<li  class="popular-item" ><img src="https://images.onefootball.com/icons/teams/164/213.png" alt="..." class="img-circle"></li>
-<li  class="popular-item" ><img src="https://images.onefootball.com/icons/teams/164/213.png" alt="..." class="img-circle"></li>
-<li  class="popular-item" ><img src="https://images.onefootball.com/icons/teams/164/213.png" alt="..." class="img-circle"></li>
-<li  class="popular-item" ><img src="https://images.onefootball.com/icons/teams/164/213.png" alt="..." class="img-circle"></li>
+<li  class="drop-item" ><img src="https://images.onefootball.com/icons/teams/164/213.png" alt="..." class="img-circle"></li>
+<li  class="drop-item" ><img src="https://images.onefootball.com/icons/teams/164/213.png" alt="..." class="img-circle"></li>
+<li  class="drop-item" ><img src="https://images.onefootball.com/icons/teams/164/213.png" alt="..." class="img-circle"></li>
+<li  class="drop-item" ><img src="https://images.onefootball.com/icons/teams/164/213.png" alt="..." class="img-circle"></li>
 </ul>
 
 
@@ -130,23 +347,102 @@ body {
 
 </div>
 
- </div> 
+</div> 
 
 
 
 
 
 <!-- Best 11 Table -->   
- <div class="col-md-6">
+<div class="col-md-6">
 <h3>Player List</h3>
 
+<!--leagues -->   
+<div class="right">
 
- </div> 
+    <div class="col-md-2 right-title">
+    <h4>Leagues:<h4>
+    </div>
+
+    <div class="col-md-10 right-content">
+      <ul class='leagues-list'>
+        <li class="league-item"><input type="checkbox"> England 1</li>
+        <li class="league-item"><input type="checkbox"> Germany 2</li>
+        <li class="league-item"><input type="checkbox"> France 3</li>
+        <li class="league-item"><input type="checkbox"> Italy 4</li>
+        <li class="league-item"><input type="checkbox"> All 4</li>
+      </ul>
+    </div>
+
+</div>  <!-- right 1-->
+
+<div class="right">
+
+<div class="nav-header">
+    <ul class="mobile-tabs">
+     <li  class="mobile-active"><a href="#">Forwards</a></li>
+     <li  class="mobile-tab"><a href="#">Attack Mid</a></li>
+     <li  class="mobile-tab"><a href="#">Defence Mid</a></li>
+     <li  class="mobile-tab"><a href="#">Defender</a></li>
+     <li  class="mobile-tab"><a href="#">GoolKeeper</a></li>
+    </ul>       
+
+</div>
+
+<div class="right">
+
+</div>
+<!--List of table -->
+
+<div class="right">
+
+<div class="standings-table-row-wrapper">
+
+
+<div class="ranking">
+<img class="player-image" src="https://images.onefootball.com/players/172006.jpg" loaded="true" >
+</div>
+
+
+<div class="player-stats-info" >
+
+<span class="player-stats-name">Marcus Rashford</span>
+
+<span class="player-stats-team">
+<img src="https://images.onefootball.com/icons/internal/56/21.png" "loaded="true" >
+
+<span>Manchester Utd</span>
+
+</span>
+
+</div>
+
+
+<div class="total-games">
+<span>Goals </span>
+</div>
+
+<div class="total-games">
+<span>Assists</span>
+</div>
+
+
+</div>
 
 
 
 
 
+
+
+
+
+
+
+</div>
+
+
+</div>  <!-- Player list-->
 
 </div> <!-- ng controller -->
 
