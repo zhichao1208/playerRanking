@@ -179,7 +179,7 @@ ul, menu, dir {
 .table-header-wrapper {
     line-height: 36px;
     height: 36px;
-    padding: 0 2%;
+    padding: 0 0 0 2%;
     border-bottom: 1px solid #e1e6ea;
     color: #8c96a0;
     font-weight: 500;
@@ -187,10 +187,10 @@ ul, menu, dir {
 }
 
 .competition-name {
-    -webkit-box-flex: 8;
-    -webkit-flex: 8;
-    -ms-flex: 8;
-    flex: 8;
+    -webkit-box-flex: 9;
+    -webkit-flex: 9;
+    -ms-flex: 9;
+    flex: 9;
     text-align: left;
 }
 
@@ -342,16 +342,21 @@ ul, menu, dir {
 Goal  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
 
 <div class="hasGoals" ng-click="sortBy('hasGoals')" >
-Sort  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
+Last Sort  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
 
 
 
 <div class="lastAvg" ng-click="sortBy('avgVotes')" >
-Avg  <i class="fa fa-sort fa-lg" aria-hidden="true"></i>
+Avg. Votes  <i class="fa fa-sort fa-lg" aria-hidden="true"></i>
 </div>
 
 <div class="lastAvg"  ng-click="sortBy('lastAvg')" >
-Votes  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
+Last Votes  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
+
+<div class="lastAvg"  ng-click="sortBy('lastAvg')" >
+Last/Avg  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
+
+
 
 <div class="trending"  ng-click="sortBy('raisingSpeed')" >
 Tr  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></span>
@@ -410,7 +415,9 @@ chart-dataset-override="datasetOverride" chart-click="onClick" ng-show="player =
 <span>{{player.lastVotes}}</span>
 </div>
 
-
+<div class="total-games">
+<span>{{player.last/Avg}}</span>
+</div>
 
 <div class="points">
 <i ng-if="player.raisingSpeed>100" class="fa fa-angle-double-up fa-lg" aria-hidden="true"></i>

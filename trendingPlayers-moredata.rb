@@ -164,7 +164,7 @@ player["profileLink"]  = "https://www.onefootball.com/en-US/player/#{playerInfo[
 
 end # => bestOfLast.each do |player|
 
-return trendingPlayers =  bestOfLast.sort_by{|p| p["last/Avg"]}.reverse.map{|p|
+return trendingPlayers =  bestOfLast.find_all{|player| player["pastVotesNumber"][-2]!=0 }.sort_by{|p| p["last/Avg"]}.reverse.map{|p|
 
  {"name"=>p["playerInfo"]["data"]["info"]["name"],
   "link"=>p["profileLink"],
