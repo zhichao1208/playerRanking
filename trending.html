@@ -287,6 +287,20 @@ ul, menu, dir {
     border-radius: 10%;
 }
 
+.descrption{
+    text-align: right;
+    margin-right: 1%;
+        color: #8c96a0;
+    font-size: 16px;
+
+
+}
+
+.title{
+    font-weight: 500;
+}
+
+
 
 </style>
 
@@ -322,7 +336,10 @@ ul, menu, dir {
 <h3>Players Sort by: {{propertyName}}
 </h3>
 
-<h4>Goals: Last Match Goals</h4>
+<p class="descrption"><span class="title">Goals:</span> Last Match Goals; <span class="title">Sort:</span> Last Match Votes Sorts of All Players</p>
+<p class="descrption"><span class="title">Avg.:</span> Avg Votes of Season; <span class="title">Last:</span> Last Match Votes. <span class="title">L/A:</span> Last Match Votes / Avg. Votes</p>
+<p class="descrption"><span class="title">Trend:</span> Raising or Drop Speed of Votes</p>
+
 
 <!--New Pickers -->
 <div class="of-row">
@@ -339,27 +356,27 @@ ul, menu, dir {
 
 
 <div class="hasGoals" ng-click="sortBy('hasGoals')" >
-Goal  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
+Goals  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
 
 <div class="hasGoals" ng-click="sortBy('hasGoals')" >
-Last Sort  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
+Sort  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
 
 
 
 <div class="lastAvg" ng-click="sortBy('avgVotes')" >
-Avg. Votes  <i class="fa fa-sort fa-lg" aria-hidden="true"></i>
+Avg. <i class="fa fa-sort fa-lg" aria-hidden="true"></i>
 </div>
 
 <div class="lastAvg"  ng-click="sortBy('lastAvg')" >
-Last Votes  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
+Last <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
 
 <div class="lastAvg"  ng-click="sortBy('lastAvg')" >
-Last/Avg  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
+L/A <i class="fa fa-sort fa-lg" aria-hidden="true"></i></div>
 
 
 
 <div class="trending"  ng-click="sortBy('raisingSpeed')" >
-Tr  <i class="fa fa-sort fa-lg" aria-hidden="true"></i></span>
+Trend <i class="fa fa-sort fa-lg" aria-hidden="true"></i></span>
 </div>
 
 </div>
@@ -416,7 +433,7 @@ chart-dataset-override="datasetOverride" chart-click="onClick" ng-show="player =
 </div>
 
 <div class="total-games">
-<span>{{player.last/Avg}}</span>
+<span>{{player.lastAvg}}</span>
 </div>
 
 <div class="points">
