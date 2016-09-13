@@ -1,0 +1,434 @@
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+body {
+    font-family: 'Helvetica Neue','Roboto',sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #e1e6ea;
+    height: auto;
+    line-height: 1.5;
+    color: #323c46;
+    min-width: 320px;
+}
+
+
+
+.card-body {
+    background-color: #fff;
+    width: 100%;}
+
+.player-stats-card {
+    border-bottom: 1px solid #e1e6ea;
+    padding: 10px 0;
+    width: 60%;
+    display: block;
+}
+
+
+.player-stats-position {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    width: 5%;
+    vertical-align: middle;
+}
+
+.player-stats-info {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    margin-left: 3%;
+}
+
+.player-stats-info .chart{
+    width: 100%;
+    margin-top: 3%;
+}
+
+.player-stats-name {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.player-stats-team {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    width: 100%;
+}
+
+.player-stats-team>img {
+    height: 22px;
+    width: auto;
+    margin-right: 8px;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.player-stats-score {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+    margin-right: 2%;
+}
+
+.player-stats-goals {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.popular-list {
+    max-height: 600px;
+    overflow: auto;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.19);
+    list-style-type: none;
+    padding: 12px 0;
+    margin: 0;
+    background: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.popular-list .popular-item {
+    min-width: 120px;
+    padding: 12px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.popular-list .popular-item span {
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.popular-list .popular-item span league-name {
+    display: block;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 12px;
+}
+
+
+.popular-list li span {
+    font-family: 'Roboto','Helvetica Neue',Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.popular-list .popular-item img {
+    margin: auto;
+    height: 48px;
+    width: 48px;
+    display: block;
+    vertical-align: middle;
+}
+
+.of-row {
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+}
+
+.table-header-wrapper {
+    line-height: 36px;
+    height: 36px;
+    padding: 0 0 0 2%;
+    border-bottom: 1px solid #e1e6ea;
+    color: #8c96a0;
+    font-weight: 500;
+    display: flex;
+}
+
+.competition-name {
+    -webkit-box-flex: 9;
+    -webkit-flex: 9;
+    -ms-flex: 9;
+    flex: 9;
+    text-align: left;
+}
+
+.player-name {
+    -webkit-box-flex: 4;
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+
+}
+
+
+.hasGoals {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.trending {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.lastAvg {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.chart chart-line {
+    width: 200px;
+    height: 100px;
+}
+
+.standings-table-row-wrapper {
+    padding: 10px 2%;
+    background: #fff;
+    display: flex;
+    color: #323c46;
+    transition: border-color .28s cubic-bezier(.4, 0, .2, 1);
+    border-bottom: 1px solid #e1e6ea;
+
+}
+
+.standings-table-row-wrapper .ranking {
+    font-weight: 500;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.standings-table-row-wrapper .total-games {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #8c96a0;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-top: 24px
+}
+
+.standings-table-row-wrapper .points {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-top: 24px;
+    box-sizing: border-box;
+}
+
+.greyscale{
+  -o-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.player-image {
+    width: 48px;
+    border-radius: 10%;
+}
+
+.descrption{
+    text-align: right;
+    margin-right: 1%;
+        color: #8c96a0;
+    font-size: 16px;
+
+
+}
+
+.title{
+    font-weight: 500;
+}
+
+
+.pitch{
+    width:90%;
+    height:900px;
+    display: block;
+    overflow:auto;
+    margin:auto; 
+    height:auto; 
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e1e6ea;
+    text-align: center;
+    background: #47a82b;
+    border: 4px solid #7fc26b;
+}
+
+
+.drop-list {
+    max-height: 600px;
+    overflow: auto;
+    margin-bottom: 12px;
+    list-style-type: none;
+    padding: 12px 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+}
+
+
+.drop-list .drop-item {
+    min-width: 20%;
+    padding: 12px;
+}
+
+.drop-list .drop-item span {
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    color: #fff;
+
+}
+
+.drop-list li span {
+    font-family: 'Roboto','Helvetica Neue',Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.drop-list .drop-item img {
+    margin: auto;
+    height: 48px;
+    width: 48px;
+    display: block;
+    vertical-align: middle;
+}
+.right {
+  display: block;
+
+}
+
+.right-title{
+    vertical-align: top;
+    padding: 5px 0;
+    margin: 0;
+}
+
+
+.right-content{
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+
+}
+
+.nav-header {
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    background: #fff;
+    border-top: 1px solid #e1e6eb;
+}
+
+
+.mobile-tabs {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: left .5s cubic-bezier(.4, 0, .2, 1);
+    white-space: nowrap;
+    display: block;
+    list-style-type: disc;
+}
+
+.mobile-tab {
+    display: inline-block;
+    list-style: none;
+    font-family: 'pluto sans regular','Helvetica Neue',Helvetica,sans-serif;
+    font-weight: normal;
+    color: #141e28;
+    font-size: 14px;
+    line-height: 50px;
+    padding: 0 15px;
+    border-color: #fff;
+    text-decoration: none;
+    border-color: #fff;
+    border-bottom: 2px solid #fff;
+
+}
+
+.mobile-active {
+    display: inline-block;
+    list-style: none;
+    font-family: 'pluto sans regular','Helvetica Neue',Helvetica,sans-serif;
+    font-weight: normal;
+    color: #141e28;
+    font-size: 14px;
+    line-height: 50px;
+    padding: 0 15px;
+    border-color: #fff;
+    text-decoration: none;
+    border-color: #fff;
+    border-bottom: 2px solid #32b846;
+}
+
+a {
+    text-decoration: none;
+    background: transparent;
+}
+
+
+.leagues-list{
+    max-height: 400px;
+    overflow: auto;
+    margin-bottom: 12px;
+    list-style-type: none;
+    padding: 5px 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: center; 
+}
+
+.leagues-list .league-item {
+    min-width: 5%;
+    padding: 10px 5px;
+}
+
+
+

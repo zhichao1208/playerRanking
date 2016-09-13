@@ -5,8 +5,6 @@ $scope.allPlayers = [];
 $scope.chosedLeagues =["9"];
 $scope.players=[];
 
-$scope.test =["123123213123"];
-
 
 
   leagues.success(function(data){
@@ -122,6 +120,10 @@ $scope.chart = function(){
     $scope.propertyName = propertyName;
   };
 
+  $scope.tabs = [
+    { title:'Dynamic Title 1', content:'Dynamic content 1' },
+    { title:'Dynamic Title 2', content:'Dynamic content 2', disabled: true }
+  ];
 
 
 

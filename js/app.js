@@ -1,4 +1,4 @@
-var app = angular.module('TrendingPlayers', ['chart.js']);
+var app = angular.module('TrendingPlayers', ['chart.js','dndLists','ui.bootstrap.tabs','ui.bootstrap.tpls']);
 
  app.config(['ChartJsProvider', function (ChartJsProvider) {
     // Configure all charts

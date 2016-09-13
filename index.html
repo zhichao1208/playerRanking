@@ -12,308 +12,20 @@
   <script src="./js/jquery-3.1.0.min.js"></script>
 
 	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-	<script src="./js/bootstrap.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
 
-  <script src="./js/angular.min.js"></script>
+<script src="./js/angular.min.js"></script>
 
 <link rel="stylesheet" href="./css/font-awesome.min.css">
 
+<link rel="stylesheet" href="./css/onedata.css">
 
-	<style type="text/css">
-body {
-    font-family: 'Helvetica Neue','Roboto',sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    background-color: #e1e6ea;
-    height: auto;
-    line-height: 1.5;
-    color: #323c46;
-    min-width: 320px;
-}
-
-
-.pitch{
-    width:90%;
-    height:900px;
-    display: block;
-    overflow:auto;
-    margin:auto; 
-    height:auto; 
-    border-style: solid;
-    border-width: 2px;
-    border-color: #e1e6ea;
-    text-align: center;
-    background: #47a82b;
-    border: 4px solid #7fc26b;
-}
-
-
-.drop-list {
-    max-height: 600px;
-    overflow: auto;
-    margin-bottom: 12px;
-    list-style-type: none;
-    padding: 12px 0;
-    margin: 0;
-    display: flex;
-    flex-flow: row nowrap;
-    -webkit-box-align: center;
-}
-
-
-.drop-list .drop-item {
-    min-width: 20%;
-    padding: 12px;
-}
-
-.drop-list .drop-item span {
-    display: block;
-    text-align: center;
-    padding-top: 5px;
-    color: #fff;
-
-}
-
-.drop-list li span {
-    font-family: 'Roboto','Helvetica Neue',Helvetica,sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-}
-
-.drop-list .drop-item img {
-    margin: auto;
-    height: 48px;
-    width: 48px;
-    display: block;
-    vertical-align: middle;
-}
-
-.leagues-list{
-    max-height: 400px;
-    overflow: auto;
-    margin-bottom: 12px;
-    list-style-type: none;
-    padding: 5px 0;
-    margin: 0;
-    display: flex;
-    flex-flow: row nowrap;
-    -webkit-box-align: center; 
-}
-
-.leagues-list .league-item {
-    min-width: 5%;
-    padding: 10px 5px;
-}
-
-
-.right {
-  display: block;
-
-}
-
-.right-title{
-    vertical-align: top;
-    padding: 5px 0;
-    margin: 0;
-}
-
-
-.right-content{
-    vertical-align: top;
-    padding: 0;
-    margin: 0;
-
-}
-
-.nav-header {
-    position: relative;
-    width: 100%;
-    height: 50px;
-    overflow: auto;
-    background: #fff;
-    border-top: 1px solid #e1e6eb;
-}
-
-
-.mobile-tabs {
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    transition: left .5s cubic-bezier(.4, 0, .2, 1);
-    white-space: nowrap;
-    display: block;
-    list-style-type: disc;
-}
-
-.mobile-tab {
-    display: inline-block;
-    list-style: none;
-    font-family: 'pluto sans regular','Helvetica Neue',Helvetica,sans-serif;
-    font-weight: normal;
-    color: #141e28;
-    font-size: 14px;
-    line-height: 50px;
-    padding: 0 15px;
-    border-color: #fff;
-    text-decoration: none;
-    border-color: #fff;
-    border-bottom: 2px solid #fff;
-
-}
-
-.mobile-active {
-    display: inline-block;
-    list-style: none;
-    font-family: 'pluto sans regular','Helvetica Neue',Helvetica,sans-serif;
-    font-weight: normal;
-    color: #141e28;
-    font-size: 14px;
-    line-height: 50px;
-    padding: 0 15px;
-    border-color: #fff;
-    text-decoration: none;
-    border-color: #fff;
-    border-bottom: 2px solid #32b846;
-}
-
-a {
-    text-decoration: none;
-    background: transparent;
-}
-
-
-.standings-table-row-wrapper {
-    padding: 10px 2%;
-    background: #fff;
-    display: flex;
-    color: #323c46;
-    transition: border-color .28s cubic-bezier(.4, 0, .2, 1);
-    border-bottom: 1px solid #e1e6ea;
-
-}
-
-.standings-table-row-wrapper .ranking {
-    font-weight: 500;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-}
-
-.standings-table-row-wrapper .total-games {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    color: #8c96a0;
-    font-size: 16px;
-    text-align: center;
-    display: block;
-    margin-top: 24px
-}
-
-.standings-table-row-wrapper .points {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    font-weight: 500;
-    font-size: 16px;
-    text-align: center;
-    display: block;
-    margin-top: 24px;
-    box-sizing: border-box;
-}
-
-
-.card-body {
-    background-color: #fff;
-    width: 100%;}
-
-.player-stats-card {
-    border-bottom: 1px solid #e1e6ea;
-    padding: 10px 0;
-    width: 60%;
-    display: block;
-}
-
-
-.player-stats-position {
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 500;
-    width: 5%;
-    vertical-align: middle;
-}
-
-.player-stats-info {
-    display: inline-block;
-    vertical-align: middle;
-    width: 40%;
-    margin-left: 3%;
-}
-
-.player-stats-name {
-    display: block;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.player-stats-team {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 16px;
-    width: 100%;
-}
-
-.player-stats-team>img {
-    height: 22px;
-    width: auto;
-    margin-right: 8px;
-}
-
-img {
-    border: 0;
-    vertical-align: middle;
-}
-
-.player-stats-score {
-    display: inline-block;
-    vertical-align: middle;
-    width: 20%;
-    margin-right: 2%;
-}
-
-.player-stats-goals {
-    vertical-align: middle;
-    display: inline-block;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.of-row {
-    padding-left: 6px;
-    padding-right: 6px;
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    box-sizing: border-box;
-}
-
-.player-image {
-    width: 48px;
-    border-radius: 10%;
-}
-
-</style>
 
 </head>
 
 <body ng-app="TrendingPlayers">
 
-<div class="container-fluid" ng-controller="bestCtrl">
+<div class="container-fluid" ng-controller="MainController">
 
 	 <div class="page-header">
   		<h1>Onefootball - Best 11 </br><small><a href='./trending.html'> Find Most Surprise Players in Last Weekend</small></a></h1>
@@ -379,30 +91,110 @@ img {
 <div class="right">
 
 <div class="nav-header">
-    <ul class="mobile-tabs">
-     <li  class="mobile-active"><a href="#">Forwards</a></li>
-     <li  class="mobile-tab"><a href="#">Attack Mid</a></li>
-     <li  class="mobile-tab"><a href="#">Defence Mid</a></li>
-     <li  class="mobile-tab"><a href="#">Defender</a></li>
-     <li  class="mobile-tab"><a href="#">GoolKeeper</a></li>
-    </ul>       
 
+  <p>
+    <button type="button" class="btn btn-default btn-sm" ng-click="active = 1">Select second tab</button>
+   
+  </p>
+
+
+
+  <uib-tabset active="active">
+
+    <uib-tab id="mid1list" heading="mid1list">
+
+        <div class="standings-table-row-wrapper" dnd-draggable="item"  dnd-effect-allowed="move">
+
+
+        <div class="ranking">
+        <img class="player-image" src="https://images.onefootball.com/players/486.jpg" loaded="true" >
+        </div>
+
+
+        <div class="player-stats-info" >
+
+        <span class="player-stats-name">LUCA CALDIROLA</span>
+
+        <span class="player-stats-team">
+        <img src="https://images.onefootball.com/icons/teams/164/150.png" "loaded="true" >
+
+        <span>WERDER BREMEN</span>
+
+        </span>
+
+        </div>
+
+         <div class="total-games">
+        <span>Goals </span>
+        </div>
+
+        <div class="total-games">
+        <span>Assists</span>
+        </div>
+
+        </div>
+
+    </uib-tab>
+    <uib-tab heading="Static title">Static content</uib-tab>
+
+<!-- forwardsList-->
+    <uib-tab id="forwardsList">
+
+      <uib-tab-heading>
+    Forwards
+      </uib-tab-heading>
+
+        <div class="standings-table-row-wrapper" dnd-draggable="item"  dnd-effect-allowed="move">
+        <div class="ranking">
+        <img class="player-image" src="https://images.onefootball.com/players/172006.jpg" loaded="true" >
+        </div>
+
+        <div class="player-stats-info" >
+
+        <span class="player-stats-name">Marcus Rashford</span>
+
+        <span class="player-stats-team">
+        <img src="https://images.onefootball.com/icons/internal/56/21.png" "loaded="true" >
+
+        <span>Manchester Utd</span>
+
+        </span>
+
+        </div>
+
+
+        <div class="total-games">
+        <span>Goals </span>
+        </div>
+
+        <div class="total-games">
+        <span>Assists</span>
+        </div>
+
+        </div>
+
+    </uib-tab>
+
+
+<!--mid1List-->
+
+</div>
 </div>
 
 <div class="right">
 
 </div>
+
 <!--List of table -->
 
-<div class="right">
+<!--<div class="right">
 
-<div class="standings-table-row-wrapper">
+<div class="standings-table-row-wrapper" dnd-draggable="item"  dnd-effect-allowed="move">
 
 
 <div class="ranking">
 <img class="player-image" src="https://images.onefootball.com/players/172006.jpg" loaded="true" >
 </div>
-
 
 <div class="player-stats-info" >
 
@@ -428,7 +220,7 @@ img {
 
 
 </div>
-
+ -->
 
 
 
@@ -450,14 +242,32 @@ img {
 
     <!-- Modules -->
     <script src="./js/app.js"></script>
-    <!-- Modules -->
-    <script src="./js/angular-chart.min.js"></script>
 
 
     <!-- Controllers -->
-    <script src="./js/bestCtrl.js"></script>
+    <script src="./js/controllers/MainController.js"></script>
 
+          <!-- Modules -->
+    <script src="./js/chart.js"></script>
+    <!-- Modules -->
+    <script src="./js/angular-chart.min.js"></script>
 
+      <!-- Services -->
+  <script src="./js/services/players.js"></script>
+      <!-- Services -->
+    <script src="./js/services/trending.js"></script>
+
+    <!-- other -->
+
+     <script src="./js/others/angular-drag-and-drop-lists.min.js"></script>
+
+    <!-- other -->
+
+     <script src="./js/others/ui-bootstrap-custom-2.1.3.min.js"></script>
+
+    <!-- other -->
+
+     <script src="./js/others/ui-bootstrap-custom-tpls-2.1.3.min.js"></script>
 
 </body>
 

@@ -1,1 +1,4 @@
-app.controller('bestCtrl', ['$scope',, function($scope) { 
+app.controller('bestCtrl', ['$scope', function($scope) { 
+
+
+}]);
