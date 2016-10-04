@@ -430,5 +430,41 @@ a {
     padding: 10px 5px;
 }
 
+.standings-table-header-wrapper {
+    line-height: 36px;
+    height: 36px;
+    padding: 0 2%;
+    border-bottom: 1px solid #E1E6EA;
+    color: #8C96A0;
+    font-weight: 500;
+    display: flex;
+    display: -webkit-flex; 
+    justify-content: flex-end;
+    flex-direction:row;
+}
+.standings-table-header-wrapper .left-title {
+    flex: 8;
+    text-align: left;
+}
+
+
+.standings-table-header-wrapper .title {
+    flex: 2;
+}
+
+.standings-table-header-wrapper .major {
+    flex: 1;
+}
+
+.win {
+
+    color:red;
+}
+
+.win {
+
+    color:red;
+}
+
 
 
